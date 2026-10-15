@@ -1,11 +1,6 @@
 package ir.hoshemasnooi.app.data
 
-import android.content.Context
-import ir.hoshemasnooi.app.model.Category
-import ir.hoshemasnooi.app.model.Post
-import ir.hoshemasnooi.app.util.Http
 import org.json.JSONArray
-import org.json.JSONObject
 import org.xmlpull.v1.XmlPullParser
 import org.xmlpull.v1.XmlPullParserFactory
 import java.io.StringReader
@@ -13,34 +8,30 @@ import java.text.SimpleDateFormat
 import java.util.Locale
 
 /**
- * منایع دریافت مطالب.
+ * منابع دریافت مطالب.
  *
- * چون دسترسی رسمی به رابط برنامه‌نویسی توییتر (X) نیازمند کلید ویژه است،
- * برنامه از دو مسیر استفاده می‌کند:
- *   1) خوراک‌های RSS مبتنی بر Nitter برای حساب‌های تخصصی هوش مصنوعی.
- *   2) یک فایل JSON راه دور (قابل تنظیم) که می‌توان آن را روی GitHub میزبانی کرد.
+ * مسیر اصلی: یک خوراک JSON از پیش ترجمه‌شده که به‌صورت خودکار توسط گردش‌کار
+ * GitHub ساخته می‌شود (نگاه کنید به tools/aggregate.py). این خوراک روی چند آینه
+ * میزبانی می‌شود تا در شبکه‌های محدود نیز در دسترس باشد.
  *
- * همه این‌ها با داده‌های ذخیره‌شده در برنامه ترکیب می‌شوند تا حتی بدون اینترنت نیز
- * برنامه پر و کاربردی باشد.
+ * مسیر پشتیبان: خوراک‌های RSS/Atom عمومی که روی خود دستگاه تجزیه و ترجمه می‌شوند.
  */
 object Sources {
 
-    /** نمونه‌های جایگزین Nitter برای افزایش پایداری. */
-    val nitterInstances = listOf(
-        "https://nitter.net",
-        "https://nitter.privacydev.net",
-        "https://nitter.poast.org",
-        "https://nitter.1d4.us",
-        "https://nitter.kavin.rocks"
-    )
+    data class FeedSource(val name: String, val url: String)
 
-    /** حساب‌های تخصصی هوش مصنوعی. */
-    val accounts = listOf(
-        "OpenAI", "GoogleDeepMind", "AIatMeta", "AnthropicAI", "huggingface",
-        "GoogleAI", "NVIDIA", "Microsoft", "karpathy", "sama",
-        "SundarPichai", "satyanadella", "lexfridman", "Midjourney",
-        "StabilityAI", "arXiv_Daily", "MIT_CSAIL", "StanfordAILab",
-        "allen_ai", "AI_Frontier", "TheAIObserver", "AIatGoogle"
+    /** خوراک‌های عمومی پشتیبان (RSS/Atom). */
+    val feedSources = listOf(
+        FeedSource(
+            "Google News",
+            "https://news.google.com/rss/search?q=artificial+intelligence+OR+AI+model&hl=en-US&gl=US&ceid=US:en"
+        ),
+        FeedSource("Hugging Face", "https://huggingface.co/blog/feed.xml"),
+        FeedSource("TechCrunch", "https://techcrunch.com/category/artificial-intelligence/feed/"),
+        FeedSource("The Verge", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
+        FeedSource("OpenAI", "https://openai.com/news/rss.xml"),
+        FeedSource("arXiv", "https://export.arxiv.org/rss/cs.AI"),
+        FeedSource("Hacker News", "https://news.ycombinator.com/rss")
     )
 
     private val dateFormats = listOf(
@@ -49,16 +40,10 @@ object Sources {
         "EEE, dd MMM yyyy HH:mm Z"
     )
 
-    fun accountFeed(instance: String, account: String): String = "$instance/$account/rss"
-
-    fun searchFeed(instance: String, query: String): String =
-        "$instance/search/rss?f=tweets&q=$query"
-
     /**
-     * تجزیه خوراک RSS و تبدیل آن به فهرست مطلب خام.
-     * @return جفت نام حساب و متن مطلب
+     * تجزیه خوراک RSS یا Atom و تبدیل آن به فهرست مطلب خام.
      */
-    fun parseRss(xml: String): List<RawItem> {
+    fun parseFeed(xml: String): List<RawItem> {
         val items = mutableListOf<RawItem>()
         try {
             val factory = XmlPullParserFactory.newInstance()
@@ -68,7 +53,7 @@ object Sources {
 
             var inItem = false
             var title = ""
-            var description = ""
+            var body = ""
             var link = ""
             var pubDate = ""
             var creator = ""
@@ -77,19 +62,30 @@ object Sources {
                 val name = parser.name?.lowercase(Locale.ROOT)
                 when (event) {
                     XmlPullParser.START_TAG -> when (name) {
-                        "item" -> {
-                            inItem = true; title = ""; description = ""; link = ""
+                        "item", "entry" -> {
+                            inItem = true; title = ""; body = ""; link = ""
                             pubDate = ""; creator = ""
                         }
                         "title" -> if (inItem) title = parser.nextTextSafe()
-                        "description" -> if (inItem) description = parser.nextTextSafe()
-                        "link" -> if (inItem) link = parser.nextTextSafe()
-                        "pubdate" -> if (inItem) pubDate = parser.nextTextSafe()
-                        "creator", "dc:creator" -> if (inItem) creator = parser.nextTextSafe()
+                        "description", "summary", "content" ->
+                            if (inItem && body.isBlank()) body = parser.nextTextSafe()
+                        "link" -> if (inItem) {
+                            val href = parser.getAttributeValue(null, "href")
+                            if (!href.isNullOrBlank()) {
+                                if (link.isBlank()) link = href.trim()
+                            } else {
+                                val t = parser.nextTextSafe()
+                                if (t.isNotBlank()) link = t
+                            }
+                        }
+                        "pubdate", "published", "updated" ->
+                            if (inItem && pubDate.isBlank()) pubDate = parser.nextTextSafe()
+                        "creator" -> if (inItem) creator = parser.nextTextSafe()
+                        "source" -> if (inItem && creator.isBlank()) creator = parser.nextTextSafe()
                     }
-                    XmlPullParser.END_TAG -> if (name == "item") {
+                    XmlPullParser.END_TAG -> if (name == "item" || name == "entry") {
                         inItem = false
-                        val text = cleanHtml(description).ifBlank { title }
+                        val text = cleanHtml(body).ifBlank { title }
                         if (text.isNotBlank()) {
                             items.add(
                                 RawItem(
@@ -115,12 +111,12 @@ object Sources {
             val array = JSONArray(json)
             for (i in 0 until array.length()) {
                 val obj = array.optJSONObject(i) ?: continue
-                val text = obj.optString("text").ifBlank { obj.optString("textPersian") }
+                val text = obj.optString("textOriginal").ifBlank { obj.optString("textPersian") }
                 if (text.isBlank()) continue
                 items.add(
                     RawItem(
-                        author = obj.optString("account"),
-                        text = obj.optString("textOriginal").ifBlank { text },
+                        author = obj.optString("account").ifBlank { obj.optString("authorName") },
+                        text = text,
                         url = obj.optString("url"),
                         timestamp = obj.optLong("timestamp", System.currentTimeMillis()),
                         existingPersian = obj.optString("textPersian"),

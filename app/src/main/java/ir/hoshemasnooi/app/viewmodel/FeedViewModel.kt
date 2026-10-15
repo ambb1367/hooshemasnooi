@@ -82,15 +82,9 @@ class FeedViewModel(app: Application) : AndroidViewModel(app) {
 
     fun isTranslationEnabled(): Boolean = repo.translateEnabled
 
-    fun setNitterInstance(value: String) {
-        repo.nitterInstance = value
-    }
-
     fun setRemoteUrl(value: String) {
         repo.remoteFeedUrl = value
     }
-
-    fun nitterInstance(): String = repo.nitterInstance
 
     fun remoteUrl(): String = repo.remoteFeedUrl
 

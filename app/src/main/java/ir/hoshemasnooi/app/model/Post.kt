@@ -11,7 +11,7 @@ package ir.hoshemasnooi.app.model
  * @param textPersian ترجمه فارسی
  * @param timestamp زمان انتشار به میلی‌ثانیه
  * @param url لینک مطلب در توییتر (X)
- * @param sourceName نام منبع (مثلاً Nitter یا دیتاست داخلی)
+ * @param sourceName نام منبع (مثلاً خوراک آنلاین یا دیتاست داخلی)
  * @param translatedFrom آیا ترجمه از متن اصلی انجام شده است
  */
 data class Post(

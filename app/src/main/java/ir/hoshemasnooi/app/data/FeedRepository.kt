@@ -14,15 +14,16 @@ class FeedRepository(private val context: Context) {
     private val translator = Translator(context)
     private val prefs = context.getSharedPreferences("feed", Context.MODE_PRIVATE)
 
-    /** خوراک JSON راه دور که می‌توان آن را روی GitHub میزبانی و به‌روزرسانی کرد. */
+    /** خوراک JSON راه دور دلخواه (اختیاری). خالی یعنی استفاده از آینه‌های پیش‌فرض. */
     var remoteFeedUrl: String
-        get() = prefs.getString(KEY_REMOTE_URL, DEFAULT_REMOTE_URL) ?: DEFAULT_REMOTE_URL
+        get() = prefs.getString(KEY_REMOTE_URL, "") ?: ""
         set(value) = prefs.edit().putString(KEY_REMOTE_URL, value.trim()).apply()
 
-    var nitterInstance: String
-        get() = prefs.getString(KEY_NITTER, Sources.nitterInstances.first())
-            ?: Sources.nitterInstances.first()
-        set(value) = prefs.edit().putString(KEY_NITTER, value.trim().trimEnd('/')).apply()
+    /** آدرس‌هایی که برای دریافت خوراک از پیش ترجمه‌شده امتحان می‌شوند. */
+    private fun remoteMirrors(): List<String> {
+        val custom = remoteFeedUrl.trim()
+        return if (custom.isNotEmpty()) listOf(custom) else DEFAULT_FEED_MIRRORS
+    }
 
     var translateEnabled: Boolean
         get() = prefs.getBoolean(KEY_TRANSLATE, true)
@@ -39,28 +40,35 @@ class FeedRepository(private val context: Context) {
         var fetchedAny = false
         var lastError: String? = null
 
-        val instance = nitterInstance
-        for (account in Sources.accounts) {
-            val xml = Http.get(Sources.accountFeed(instance, account)) ?: continue
-            val items = Sources.parseRss(xml)
+        // ۱) خوراک از پیش ترجمه‌شده (JSON) از آینه‌ها.
+        var gotJson = false
+        for (mirror in remoteMirrors()) {
+            if (mirror.isBlank()) continue
+            val json = Http.get(mirror) ?: continue
+            val items = Sources.parseJsonFeed(json)
             if (items.isNotEmpty()) {
                 fetchedAny = true
-                items.take(8).forEach { raw ->
-                    toPost(raw, account, "Nitter")?.let { collected.add(it) }
+                gotJson = true
+                items.forEach { raw ->
+                    toPost(raw, raw.author, raw.author.ifBlank { "منبع آنلاین" })
+                        ?.let { collected.add(it) }
                 }
+                break
             }
         }
+        if (!gotJson) lastError = "دریافت خوراک آنلاین ناموفق بود"
 
-        if (remoteFeedUrl.isNotBlank()) {
-            val json = Http.get(remoteFeedUrl)
-            if (json != null) {
-                val items = Sources.parseJsonFeed(json)
+        // ۲) خوراک‌های عمومی RSS/Atom فقط زمانی که خوراک اصلی در دسترس نبود.
+        if (!gotJson) {
+            for (source in Sources.feedSources) {
+                val xml = Http.get(source.url) ?: continue
+                val items = Sources.parseFeed(xml)
                 if (items.isNotEmpty()) {
                     fetchedAny = true
-                    items.forEach { raw -> toPost(raw, raw.author, "منبع آنلاین")?.let { collected.add(it) } }
+                    items.take(12).forEach { raw ->
+                        toPost(raw, source.name, source.name)?.let { collected.add(it) }
+                    }
                 }
-            } else {
-                lastError = "دریافت منبع آنلاین ناموفق بود"
             }
         }
 
@@ -106,7 +114,7 @@ class FeedRepository(private val context: Context) {
             textOriginal = text,
             textPersian = persian,
             timestamp = raw.timestamp,
-            url = raw.url.ifBlank { "https://x.com/$account" },
+            url = raw.url.ifBlank { searchUrl(text) },
             sourceName = source,
             translatedFrom = !originalIsPersian
         )
@@ -116,6 +124,9 @@ class FeedRepository(private val context: Context) {
         val t = text.trim()
         return t.startsWith("http") && !t.contains(" ")
     }
+
+    private fun searchUrl(text: String): String =
+        "https://www.google.com/search?q=" + java.net.URLEncoder.encode(text.take(120), "UTF-8")
 
     private fun makeId(account: String, text: String, url: String): String {
         if (url.isNotBlank()) return url.hashCode().toString()
@@ -188,10 +199,14 @@ class FeedRepository(private val context: Context) {
     }
 
     companion object {
-        const val DEFAULT_REMOTE_URL = ""
+        /** آینه‌های خوراک از پیش ترجمه‌شده؛ raw، سپس CDN و در پایان GitHub Pages. */
+        val DEFAULT_FEED_MIRRORS = listOf(
+            "https://raw.githubusercontent.com/ambb1367/hooshemasnooi/master/docs/feed.json",
+            "https://cdn.jsdelivr.net/gh/ambb1367/hooshemasnooi@master/docs/feed.json",
+            "https://ambb1367.github.io/hooshemasnooi/feed.json"
+        )
         private const val KEY_CACHE = "cache_posts_v1"
         private const val KEY_REMOTE_URL = "remote_url"
-        private const val KEY_NITTER = "nitter_instance"
         private const val KEY_TRANSLATE = "translate_enabled"
     }
 }

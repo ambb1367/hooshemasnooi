@@ -47,10 +47,8 @@ fun HooshYarApp() {
 
                         Screen.SETTINGS -> SettingsScreen(
                             initialTranslation = vm.isTranslationEnabled(),
-                            initialNitter = vm.nitterInstance(),
                             initialRemoteUrl = vm.remoteUrl(),
                             onTranslationChange = vm::toggleTranslation,
-                            onNitterChange = vm::setNitterInstance,
                             onRemoteUrlChange = vm::setRemoteUrl,
                             onBack = {
                                 screen = Screen.HOME

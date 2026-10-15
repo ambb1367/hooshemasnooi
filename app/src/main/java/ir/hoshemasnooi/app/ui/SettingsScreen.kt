@@ -38,15 +38,12 @@ import androidx.compose.ui.unit.dp
 @Composable
 fun SettingsScreen(
     initialTranslation: Boolean,
-    initialNitter: String,
     initialRemoteUrl: String,
     onTranslationChange: (Boolean) -> Unit,
-    onNitterChange: (String) -> Unit,
     onRemoteUrlChange: (String) -> Unit,
     onBack: () -> Unit
 ) {
     var translation by remember { mutableStateOf(initialTranslation) }
-    var nitter by remember { mutableStateOf(initialNitter) }
     var remoteUrl by remember { mutableStateOf(initialRemoteUrl) }
 
     Scaffold(
@@ -93,29 +90,10 @@ fun SettingsScreen(
                 }
             }
 
-            SettingCard(title = "منبع دریافــت مطالب (Nitter)") {
+            SettingCard(title = "منبع آنلاین (اختیاری)") {
                 Text(
-                    "نشانی یک نمونه فعال Nitter برای دریافت خوراک توییتر.",
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    style = MaterialTheme.typography.bodySmall
-                )
-                Spacer(Modifier.padding(top = 8.dp))
-                OutlinedTextField(
-                    value = nitter,
-                    onValueChange = {
-                        nitter = it
-                        onNitterChange(it)
-                    },
-                    modifier = Modifier.fillMaxWidth(),
-                    singleLine = true,
-                    shape = RoundedCornerShape(12.dp),
-                    placeholder = { Text("https://nitter.net") }
-                )
-            }
-
-            SettingCard(title = "منبع آنلاین اختصاصی (JSON)") {
-                Text(
-                    "نشانی یک فایل JSON (مثلاً روی GitHub) که فهرست مطالب را فراهم می‌کند. اختیاری است.",
+                    "در حالت پیش‌فرض، برنامه خوراک ترجمه‌شده را از چند آینه (GitHub) دریافت " +
+                        "می‌کند. برای استفاده از منبع دیگر، نشانی یک فایل JSON را وارد کنید.",
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     style = MaterialTheme.typography.bodySmall
                 )
@@ -128,7 +106,7 @@ fun SettingsScreen(
                     },
                     modifier = Modifier.fillMaxWidth(),
                     shape = RoundedCornerShape(12.dp),
-                    placeholder = { Text("https://raw.githubusercontent.com/…/feed.json") }
+                    placeholder = { Text("https://…/feed.json") }
                 )
             }
 
@@ -142,7 +120,7 @@ fun SettingsScreen(
                 )
                 Spacer(Modifier.padding(top = 8.dp))
                 Text(
-                    "نسخه ۱٫۰٫۰",
+                    "نسخه ۱٫۰٫۱",
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.primary
                 )
