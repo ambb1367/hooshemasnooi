@@ -120,7 +120,7 @@ fun SettingsScreen(
                 )
                 Spacer(Modifier.padding(top = 8.dp))
                 Text(
-                    "نسخه ۱٫۰٫۱",
+                    "نسخه ۱٫۰٫۲",
                     style = MaterialTheme.typography.labelMedium,
                     color = MaterialTheme.colorScheme.primary
                 )

@@ -20,18 +20,24 @@ object Sources {
 
     data class FeedSource(val name: String, val url: String)
 
-    /** خوراک‌های عمومی پشتیبان (RSS/Atom). */
+    /** خوراک‌های عمومی پشتیبان (RSS/Atom). شامل منابع رسمی و افراد حقیقی مرتبط با هوش مصنوعی. */
     val feedSources = listOf(
         FeedSource(
             "Google News",
-            "https://news.google.com/rss/search?q=artificial+intelligence+OR+AI+model&hl=en-US&gl=US&ceid=US:en"
+            "https://news.google.com/rss/search?q=artificial+intelligence+OR+AI+model+OR+LLM+OR+agentic+AI&hl=en-US&gl=US&ceid=US:en"
         ),
         FeedSource("Hugging Face", "https://huggingface.co/blog/feed.xml"),
         FeedSource("TechCrunch", "https://techcrunch.com/category/artificial-intelligence/feed/"),
         FeedSource("The Verge", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"),
         FeedSource("OpenAI", "https://openai.com/news/rss.xml"),
         FeedSource("arXiv", "https://export.arxiv.org/rss/cs.AI"),
-        FeedSource("Hacker News", "https://news.ycombinator.com/rss")
+        FeedSource("Hacker News", "https://news.ycombinator.com/rss"),
+        FeedSource("Karpathy (X)", "https://news.google.com/rss/search?q=site:x.com+Andrej+Karpathy+AI+OR+LLM&hl=en-US&gl=US&ceid=US:en"),
+        FeedSource("Yann LeCun (X)", "https://news.google.com/rss/search?q=site:x.com+Yann+LeCun+AI&hl=en-US&gl=US&ceid=US:en"),
+        FeedSource("Andrew Ng (X)", "https://news.google.com/rss/search?q=site:x.com+Andrew+Ng+AI&hl=en-US&gl=US&ceid=US:en"),
+        FeedSource("Simon Willison (X)", "https://news.google.com/rss/search?q=site:x.com+simonwillison+AI+OR+LLM&hl=en-US&gl=US&ceid=US:en"),
+        FeedSource("Ethan Mollick (X)", "https://news.google.com/rss/search?q=site:x.com+Ethan+Mollick+AI&hl=en-US&gl=US&ceid=US:en"),
+        FeedSource("Sebastian Raschka (X)", "https://news.google.com/rss/search?q=site:x.com+Sebastian+Raschka+AI&hl=en-US&gl=US&ceid=US:en")
     )
 
     private val dateFormats = listOf(

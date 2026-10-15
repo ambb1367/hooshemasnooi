@@ -40,7 +40,7 @@ class FeedRepository(private val context: Context) {
         var fetchedAny = false
         var lastError: String? = null
 
-        // ۱) خوراک از پیش ترجمه‌شده (JSON) از آینه‌ها.
+        // ۱) خوراک از پیش ترجمه‌شده (JSON) از آینه‌ها (اولویت بالا).
         var gotJson = false
         for (mirror in remoteMirrors()) {
             if (mirror.isBlank()) continue
@@ -58,16 +58,15 @@ class FeedRepository(private val context: Context) {
         }
         if (!gotJson) lastError = "دریافت خوراک آنلاین ناموفق بود"
 
-        // ۲) خوراک‌های عمومی RSS/Atom فقط زمانی که خوراک اصلی در دسترس نبود.
-        if (!gotJson) {
-            for (source in Sources.feedSources) {
-                val xml = Http.get(source.url) ?: continue
-                val items = Sources.parseFeed(xml)
-                if (items.isNotEmpty()) {
-                    fetchedAny = true
-                    items.take(12).forEach { raw ->
-                        toPost(raw, source.name, source.name)?.let { collected.add(it) }
-                    }
+        // ۲) خوراک‌های عمومی RSS/Atom — همیشه همزمان بررسی می‌شوند تا تویت‌های شخصی جدید بیایند.
+        for (source in Sources.feedSources) {
+            val xml = Http.get(source.url) ?: continue
+            val items = Sources.parseFeed(xml)
+            if (items.isNotEmpty()) {
+                fetchedAny = true
+                // حداکثر ۱۵ مطلب تازه از هر منبع برای جلوگیری از شلوغی
+                items.take(15).forEach { raw ->
+                    toPost(raw, source.name, source.name)?.let { collected.add(it) }
                 }
             }
         }

@@ -36,9 +36,9 @@ TRANSLATE_DELAY = 0.4
 # (source name, url, max items, require_ai_keyword)
 FEEDS = [
     ("Google News",
-     "https://news.google.com/rss/search?q=artificial+intelligence+OR+AI+model&hl=en-US&gl=US&ceid=US:en", 45, False),
+     "https://news.google.com/rss/search?q=artificial+intelligence+OR+AI+model+OR+LLM+OR+chatgpt+OR+agentic+AI&hl=en-US&gl=US&ceid=US:en", 45, False),
     ("Google News",
-     "https://news.google.com/rss/search?q=OpenAI+OR+Anthropic+OR+DeepMind+OR+Gemini+OR+LLM&hl=en-US&gl=US&ceid=US:en", 45, False),
+     "https://news.google.com/rss/search?q=OpenAI+OR+Anthropic+OR+DeepMind+OR+Gemini+OR+LLaMA+OR+HuggingFace&hl=en-US&gl=US&ceid=US:en", 45, False),
     ("Hugging Face", "https://huggingface.co/blog/feed.xml", 15, False),
     ("TechCrunch", "https://techcrunch.com/category/artificial-intelligence/feed/", 15, False),
     ("The Verge", "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", 15, False),
@@ -46,6 +46,19 @@ FEEDS = [
     ("OpenAI", "https://openai.com/news/rss.xml", 15, False),
     ("arXiv", "https://export.arxiv.org/rss/cs.AI", 12, False),
     ("Hacker News", "https://news.ycombinator.com/rss", 25, True),
+    # X/educators via Google site:x.com RSS
+    ("Andrej Karpathy (X)", "https://news.google.com/rss/search?q=site:x.com+Andrej+Karpathy+AI+OR+LLM&hl=en-US&gl=US&ceid=US:en", 15, False),
+    ("Yann LeCun (X)", "https://news.google.com/rss/search?q=site:x.com+Yann+LeCun+AI&hl=en-US&gl=US&ceid=US:en", 10, False),
+    ("Andrew Ng (X)", "https://news.google.com/rss/search?q=site:x.com+Andrew+Ng+AI&hl=en-US&gl=US&ceid=US:en", 10, False),
+    ("Simon Willison (X)", "https://news.google.com/rss/search?q=site:x.com+simonwillison+AI+OR+LLM&hl=en-US&gl=US&ceid=US:en", 10, False),
+    ("Ethan Mollick (X)", "https://news.google.com/rss/search?q=site:x.com+Ethan+Mollick+AI&hl=en-US&gl=US&ceid=US:en", 10, False),
+    ("Sebastian Raschka (X)", "https://news.google.com/rss/search?q=site:x.com+Sebastian+Raschka+AI&hl=en-US&gl=US&ceid=US:en", 10, False),
+    # RSSHub public instances (fallbacks) to get direct X posts
+    ("RSSHub (x)", "https://rsshub.rssforever.com/x/karpathy/statuses", 15, False),
+    ("RSSHub (x)", "https://rsshub.app/x/AndrewYNg/statuses", 15, False),
+    ("RSSHub (x)", "https://rsshub.app/x/ylecun/statuses", 10, False),
+    ("RSSHub (x)", "https://rsshub.app/x/simonw/statuses", 10, False),
+    ("RSSHub (x)", "https://rsshub.app/x/emollick/statuses", 10, False),
 ]
 
 AI_KEYWORDS = [
@@ -54,7 +67,10 @@ AI_KEYWORDS = [
     "openai", "anthropic", "deepmind", "hugging face", "transformer", "diffusion",
     "midjourney", "chatbot", "copilot", "model", "inference", "training", "gpu",
     "agent", "open source", "robotics", "autonomous", "nvidia",
+    "rag", "reasoning", "fine-tuning", "fine tune", "eval", "token", "embedding",
+    "vision", "multimodal", "agentic", "genai", "generative ai",
 ]
+
 
 # category id -> keyword list (Persian + English)
 CATEGORIES = {
