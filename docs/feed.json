@@ -1,18 +1,198 @@
 [
   {
-    "id": "422903007064513",
+    "id": "462662871971059",
+    "account": "X",
+    "authorName": "X",
+    "category": "news",
+    "textOriginal": "Dipanshu Kushwaha (@Dipanshu_AI)",
+    "textPersian": "دیپانشو کوشواها (@Dipanshu_AI)",
+    "timestamp": 1794028189000,
+    "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTE45ck5ISkpDR0psek5KNEZEcjR1YmZnWEFVUEhYWHdJaV8zMzhwcGtDQ3V4Z1d5X1VxUURGTVd3?oc=5",
+    "sourceName": "Andrew Ng (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "399390309280961",
+    "account": "Bloomberg.com",
+    "authorName": "Bloomberg.com",
+    "category": "business",
+    "textOriginal": "Anthropic’s IPO Seen as AI’s True Reckoning",
+    "textPersian": "IPO آنتروپیک به عنوان حساب واقعی هوش مصنوعی تلقی می شود",
+    "timestamp": 1794027718000,
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "466309060291275",
+    "account": "Courthouse News",
+    "authorName": "Courthouse News",
+    "category": "llm",
+    "textOriginal": "Anthropic must face claims its Claude Max pitch misled users",
+    "textPersian": "Anthropic باید با ادعاهایی روبرو شود که کلود مکس کاربران را گمراه کرده است",
+    "timestamp": 1794024693000,
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdWR3NlcyeHpIU2dCd1ozQnNFTmxGVFVFZG1hRzhIQzZhbWM2YUwzSzhPdmRTZDZ0RjJCZk5NUDQ5ZjJpdTBWQ29qUUgtN1NJV3BBdHUtWWo4SWxtTUZDeDJCbEI3YWlUdGVPblUwbXpDdlB2SFFBWlBpYUQ3c0hLMk9ZNjhUUFJONTZxbktNYXFBTUVTbXhN?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "472407023239357",
+    "account": "Hacker News",
+    "authorName": "Hacker News",
+    "category": "business",
+    "textOriginal": "The AI sell-off compared to well-known stock market crashes",
+    "textPersian": "فروش هوش مصنوعی در مقایسه با سقوط های معروف بازار سهام",
+    "timestamp": 1794018006000,
+    "url": "https://www.kadoa.com/companies/insights/ai-selloff-perspective",
+    "sourceName": "Hacker News",
+    "translatedFrom": true
+  },
+  {
+    "id": "837893391911024",
+    "account": "TechCrunch",
+    "authorName": "TechCrunch",
+    "category": "news",
+    "textOriginal": "Crusoe sells troubled Wyoming data center project to Google",
+    "textPersian": "کروزو پروژه مشکل مرکز داده وایومینگ را به گوگل می فروشد",
+    "timestamp": 1794015628000,
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "sourceName": "TechCrunch",
+    "translatedFrom": true
+  },
+  {
+    "id": "924066404743006",
+    "account": "The Motley Fool",
+    "authorName": "The Motley Fool",
+    "category": "imagevideo",
+    "textOriginal": "Cerebras Systems vs. Nebius: Which Artificial Intelligence Stock Is a Better Buy Going into 2027?",
+    "textPersian": "Cerebras Systems در مقابل Nebius: کدام سهام هوش مصنوعی برای سال 2027 خرید بهتری است؟",
+    "timestamp": 1794014400000,
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQYzFYVEJkWG54ZnUwMV9BWTZ2T0VsZ3JWMnEtYXpSNVlabUNWNkVILUhGNlhLRGRKMHVqdFk2ZFQxLVdBdC1FYmUyS09wUGY4N3dyQTRtdjVIaXg4VllkeUYyTmFyWGNOM3I0M0o0eGdrQmFWOGxOcEl2bV8zMFBpOUNFa0xhWjFQQnBvWHROZnNVLS04NHFteVlQUTVmSkJ4WlhLeFRCUmNqTy1aenNtUzBhUFNHbFl6RF85UWtMbVNOclZSalJKVGZtWEQ0UURFSkF4c0dYREY4czF5Q3VjLQ?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "100203005553490",
+    "account": "Business Insider",
+    "authorName": "Business Insider",
+    "category": "news",
+    "textOriginal": "An unreleased Anthropic model just helped solve a major quantum-computing question",
+    "textPersian": "یک مدل آنتروپیک منتشر نشده به حل یک سوال مهم محاسبات کوانتومی کمک کرد",
+    "timestamp": 1794012540000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeVV2MmJnQVdxRkgtcmdrS2JNeUNWOGZfOV9hdi1yVG1WTXAxd0RWSlpJN3lZSFRwOUxvS1BSVjY5eTJDdHJYZFRaY0U3aTNfTURBYUdUbGRBVzJadXJmMWZGdzZjV3c1RGlWb3dBT2RDZldOUGxWLTlQcDVQMGhxX3NhclJidXg4WkRVczFhRUtHWi1VZTItcDIyRnRIOFZadDNwd1l5SU9IVmt4dU94XzVtckhadw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "816064576610840",
+    "account": "The Verge",
+    "authorName": "The Verge",
+    "category": "business",
+    "textOriginal": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+    "textPersian": "ارزش OpenAI 1.25 تریلیون دلار است، زیرا رقیب Anthropic نزدیک به IPO خود است",
+    "timestamp": 1794008778000,
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUFLWVAtU2RBOExLNGFGcm1lMzctY0xNXy1oUnlrSHBWcnJUWmRXOHkxcGZDYW5vWWR3RURYaWhkOU9DRFAxSjhnNG1hN0dYN3lMT2Z0bWJPb3FYOW80Um82ZFRoN2RqVG50aFFlc1lKcDY3Q2FuWkpQYkJIclk4dzZJTDhoN3R4S3dhTWJQTU1IQkpDcktTRzVwRHdYYjdMYnMw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "98783042785491",
+    "account": "The Verge",
+    "authorName": "The Verge",
+    "category": "business",
+    "textOriginal": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+    "textPersian": "ارزش OpenAI 1.25 تریلیون دلار است، زیرا رقیب Anthropic نزدیک به IPO خود است",
+    "timestamp": 1794008778000,
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+    "sourceName": "The Verge",
+    "translatedFrom": true
+  },
+  {
+    "id": "760837414843100",
+    "account": "PYMNTS.com",
+    "authorName": "PYMNTS.com",
+    "category": "tools",
+    "textOriginal": "BMO Turns to Agentic AI to Resolve Card Issues",
+    "textPersian": "BMO برای حل مشکلات کارت به هوش مصنوعی Agentic روی می آورد",
+    "timestamp": 1794007629000,
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORkk0bjFsdFdNR3NuZVd6ZW9handHNVVlYjhuMUhyZ2ZoVGkxQmYxWFpjcWktTlhtUnJ2b1BtQzgxZzhvbnU4aU9wUGxlSzNQZFFDLUhnYzlzc2VaVFpka09BeFV3b3J4SjlzeEhLQ0xVZGZySFNfdHBGZk9uZ01Ca19IdzduUENNV2tWR1BENG9udDl6TVBmR0R6a2FWUDZDUnFlcjU1Zw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "320479636470682",
+    "account": "Reuters",
+    "authorName": "Reuters",
+    "category": "business",
+    "textOriginal": "OpenAI gets $11 billion funding at $1.25 trillion valuation, source says",
+    "textPersian": "منبع می گوید OpenAI 11 میلیارد دلار با ارزش 1.25 تریلیون دلار بودجه دریافت می کند",
+    "timestamp": 1794007187000,
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "462823721960915",
+    "account": "The Verge",
+    "authorName": "The Verge",
+    "category": "news",
+    "textOriginal": "China reportedly recruited AI exec to spy on Jensen Huang",
+    "textPersian": "گزارش شده است که چین از مدیر هوش مصنوعی برای جاسوسی از جنسن هوانگ استخدام کرده است",
+    "timestamp": 1794006044000,
+    "url": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
+    "sourceName": "The Verge",
+    "translatedFrom": true
+  },
+  {
+    "id": "241728982964541",
+    "account": "CNBC",
+    "authorName": "CNBC",
+    "category": "news",
+    "textOriginal": "OpenAI could become the 'WeWork of AI,' says NYU Professor Gary Marcus",
+    "textPersian": "گری مارکوس، پروفسور دانشگاه نیویورک، می‌گوید OpenAI می‌تواند به WeWork AI تبدیل شود",
+    "timestamp": 1794005700000,
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXdwb21TV3JJVDRwY245eWhnUTMxUktRNG8zNk1rMnQ0SFN3dG9EZHdMa3k1UWNsMlV3bjEzLVQxZTZPaVFUeGNlaEVsMlZ2c29PY2J5YklOeGpyZkdJd3dYdXM3T1Z2alBMUXBPUlF2UHF0ek1UaVA0UmxwdjRnNUlDRUw4WGhUNHdiSHd2X3hZbmwwNVltWWdINGhUNlRHV2RMZ2F3bDl1UXFVdGQw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "722599392916564",
+    "account": "TechCrunch",
+    "authorName": "TechCrunch",
+    "category": "business",
+    "textOriginal": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+    "textPersian": "گزارش شده است که OpenAI 11 میلیارد دلار اضافی با ارزش 1.25 تریلیون دلار جمع آوری می کند",
+    "timestamp": 1794005626000,
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzVwenhwOUEyaGxYMTR0NkE2LXQxZk9PcklwNTlwX3h1SjhUbEgtSkRleWxwUXluYzdlTE5fN29oV0liWkxtMVB1ck9Welkxekx0anBGSjJIOHV2UGNnNTVUbXVFV1JjckRxVGk3c05QdXhFV2Vhdl81T0RKb0ZycTl3RU9YdXVRRGljdWZjb254dlBRb3U5dnZoSlpTUy1SRXNib1JFNjBrTHZpdkktbTJpTQ?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "166067961756717",
+    "account": "TechCrunch",
+    "authorName": "TechCrunch",
+    "category": "business",
+    "textOriginal": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+    "textPersian": "گزارش شده است که OpenAI 11 میلیارد دلار اضافی با ارزش 1.25 تریلیون دلار جمع آوری می کند",
+    "timestamp": 1794005626000,
+    "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+    "sourceName": "TechCrunch",
+    "translatedFrom": true
+  },
+  {
+    "id": "592532590241093",
     "account": "Axios",
     "authorName": "Axios",
     "category": "business",
     "textOriginal": "Anthropic's falling IPO valuation raises stakes for broader AI trade",
     "textPersian": "کاهش ارزش IPO آنتروپیک خطرات را برای تجارت گسترده تر هوش مصنوعی افزایش می دهد",
-    "timestamp": 1794003021000,
+    "timestamp": 1794002795000,
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yTl96WG92c29IdFAtUW9FWXhGRDNRaFhyVXVEb1ZWMHNTTzRpcTk4cVBYbGJQSGc4S1R0c0RXSnVuUVA4LUJZc19IeGlzb3dlZFo2TWFxb3JNd0I1Q29mcXpKQ3hLS3Jka1VIRFp0aE1rTzlMN0E?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "511562269367079",
+    "id": "554570966439818",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "imagevideo",
@@ -24,19 +204,19 @@
     "translatedFrom": true
   },
   {
-    "id": "55908639845203",
-    "account": "Reuters",
-    "authorName": "Reuters",
+    "id": "621855427078057",
+    "account": "Bloomberg.com",
+    "authorName": "Bloomberg.com",
     "category": "business",
-    "textOriginal": "OpenAI secures $11 billion funding at $1.25 trillion valuation, Bloomberg News reports",
-    "textPersian": "به گزارش بلومبرگ، OpenAI بودجه 11 میلیارد دلاری را با ارزش 1.25 تریلیون دلار تضمین می کند.",
-    "timestamp": 1793999899000,
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlpNRm5XVy11c3hLY0NRdjh2T3VmOE1LOWQ2LXlvcFhmZlFJYkQya3N3QWxud2UteUZpWVlCTXVHUXZZTjIwRlVQaUhqOGhyM2lDaDJTSGcxMnE5MzhOZ1NHYlJIc1p5bHRxaVZjZDd4MFY2RWMtRkNlYkhSVkdpMlRBWi1PYUNmZGNydXZnOTZFMTFoOHR0azBpUlU1aHpVdFA4dlhCV0dDNm91VE0xSVg0bXZhcF9jaVAzcXYzaldOdw?oc=5",
+    "textOriginal": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value",
+    "textPersian": "OpenAI 11 میلیارد دلار سرمایه را با ارزش 1.25 تریلیون دلار تکمیل می کند",
+    "timestamp": 1794001275000,
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUs1X0RZcHpSM0pJZVlZOHZrWEppOG5oemNaUHFVUGZYV1ZSQ2lVVVhxZENDQWVDTkVPRkN5XzRxT3JGVDExWFVVQ2VWejZ3a21tb2NCNlFrc29DVW11OC1ZRXdJX1lDNWp6Tk90STljUDdBMmltdEgyTVFJQTI5cEJFRkdHMno0Ni1CU2NFQ2M2dXRBdjFMTl8zZ1dZM1p5R2kyT2lGZmF1OGhoQm9zTDNYeWk2NG44SVlnUQ?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "729656114077524",
+    "id": "645129881178622",
     "account": "CNBC",
     "authorName": "CNBC",
     "category": "business",
@@ -48,7 +228,7 @@
     "translatedFrom": true
   },
   {
-    "id": "915813081060634",
+    "id": "587442634535585",
     "account": "Financial Times",
     "authorName": "Financial Times",
     "category": "business",
@@ -60,31 +240,19 @@
     "translatedFrom": true
   },
   {
-    "id": "657901665121694",
-    "account": "Bloomberg.com",
-    "authorName": "Bloomberg.com",
-    "category": "business",
-    "textOriginal": "OpenAI Completes $11 Billion Portion of Funding at $1.25 Trillion Value",
-    "textPersian": "OpenAI 11 میلیارد دلار سرمایه را با ارزش 1.25 تریلیون دلار تکمیل می کند",
-    "timestamp": 1793998721000,
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZUs1X0RZcHpSM0pJZVlZOHZrWEppOG5oemNaUHFVUGZYV1ZSQ2lVVVhxZENDQWVDTkVPRkN5XzRxT3JGVDExWFVVQ2VWejZ3a21tb2NCNlFrc29DVW11OC1ZRXdJX1lDNWp6Tk90STljUDdBMmltdEgyTVFJQTI5cEJFRkdHMno0Ni1CU2NFQ2M2dXRBdjFMTl8zZ1dZM1p5R2kyT2lGZmF1OGhoQm9zTDNYeWk2NG44SVlnUQ?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "469108154468440",
-    "account": "Yahoo Finance",
-    "authorName": "Yahoo Finance",
+    "id": "424504742204868",
+    "account": "Anthropic",
+    "authorName": "Anthropic",
     "category": "llm",
-    "textOriginal": "Anthropic’s Claude Can Now Read Your Bank Accounts",
-    "textPersian": "کلود Anthropic اکنون می تواند حساب های بانکی شما را بخواند",
-    "timestamp": 1793996860000,
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMWgyS0t1LW4xMndzblFOYmpYb2tmM0l3SUpfV1poZWV5VF9DQU5hcHk0NmpCWk5MdEZqWDFSVnlQMk1WcExKWWR2M05sa3lnYmMyWUVtLUJjcHR5TFdBampXTHEtU29OSWhVZklOblpqR3l5dHhJRzNITlUyeEVlZkh3anV4TGtsWTFzc1U2Q3hLY3ZqaU9WdUNn?oc=5",
+    "textOriginal": "Project EVE: Claude plays MMORPGs",
+    "textPersian": "Project EVE: کلود MMORPG بازی می کند",
+    "timestamp": 1793998325000,
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zQUNVYk03WEg1anJqMFdVd0hwa2E4MTNzTDdTQmM1Y2NQanplejhaRERoWGxNemgyNjNJREVwaEt6RFJiM2hfQjdBdkFRZ3ZZUFZHbm1yRWcwV0xUSmo5b29QZzd2Rmt3QUNfaUdLUXpQbEhpTFE?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "716863704527859",
+    "id": "155308753949781",
     "account": "Hacker News",
     "authorName": "Hacker News",
     "category": "research",
@@ -96,7 +264,7 @@
     "translatedFrom": true
   },
   {
-    "id": "577900580005075",
+    "id": "99487857247019",
     "account": "BleepingComputer",
     "authorName": "BleepingComputer",
     "category": "llm",
@@ -108,19 +276,19 @@
     "translatedFrom": true
   },
   {
-    "id": "245119811645837",
+    "id": "408747493196299",
     "account": "CIO",
     "authorName": "CIO",
     "category": "llm",
     "textOriginal": "5 things CIOs must understand to govern Claude Code",
     "textPersian": "5 چیز که CIOها باید برای کنترل کلود کد بدانند",
-    "timestamp": 1793995601000,
+    "timestamp": 1793995685000,
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUmpHUlRsU3FHWE9JdGRsajR4UGZ2UHE2U04zLWx3X1BvZ1VoNTA0bldXemRqVjdUNFdRTFRzUGhXUkhYaFBxWHEtNElzaHdTc0FsR3FndDJ2WnMwOG94M1EtTlNuZ2Z3em11WkY4bVBQeGIweVZ2VjAyblIwNDA5a1NZSlUtMmpDMkJxdUNFQWIzQ2k1U3Bj?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "593086300581127",
+    "id": "802232179567744",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "news",
@@ -132,7 +300,7 @@
     "translatedFrom": true
   },
   {
-    "id": "929738686773462",
+    "id": "260752141120545",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "tools",
@@ -144,43 +312,55 @@
     "translatedFrom": true
   },
   {
-    "id": "387145860895187",
+    "id": "788864852657267",
+    "account": "Consumer Finance Monitor",
+    "authorName": "Consumer Finance Monitor",
+    "category": "tools",
+    "textOriginal": "OCC Issues Supervisory Framework for Banks’ Use of “Super Intelligence”: A Risk-Based Approach to Generative and Agentic AI",
+    "textPersian": "OCC چارچوب نظارتی را برای استفاده بانک ها از \"فوق العاده هوشمند\" صادر می کند: رویکردی مبتنی بر ریسک برای هوش مصنوعی مولد و عامل",
+    "timestamp": 1793995118000,
+    "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQUTJXOGZBQjRWNU1DVldSQUFnZ0pUMmlaSW02YTdral84V3I0Q2xOU2ZtY1VpQTRFOXZYZlJ0Y0dYN3ZYR01zX2gtVGlzM3QwWVhWVHlKM3IxVC16Y0x2Zm1rMWVUWmRCNDdEbUJkQXlGTWhwWHRLWF9fbDZfcVd3U1R6RzROQXRwcF84WEZpaXU2bkZpaUtYNnd5V3ZwWUJSNFNkZmo0allkbjJZdkJwbzVKOUQtOWJnODBUTWdTc2s3dmtFaUpBd19laDZNc2dJRkg2d2RFdDBlVEttUmd6UUdyWTZaNkJOYzNTSnZ3bWlJVUJGRTF2U1RYb2E2b3c?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "316373742828401",
     "account": "X",
     "authorName": "X",
     "category": "llm",
     "textOriginal": "Andrej Karpathy: \"The biggest mistake in AI right now: people are forcing agents to work instead of mastering the harness engineering for model first. We made that mistake in 2016 at OpenAI and it cost us 5 years \"",
     "textPersian": "آندری کارپاتی: \"بزرگترین اشتباه در هوش مصنوعی در حال حاضر: مردم به جای تسلط بر مهندسی مهار برای مدل ابتدا ماموران را مجبور به کار می کنند. ما این اشتباه را در سال 2016 در OpenAI مرتکب شدیم و برای ما 5 سال هزینه داشت.\"",
     "timestamp": 1793994300000,
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xZzJOX2FSRjhPZ05mYm5QLUh4NlBDVXNUSmZiWTFEb2d1THhVc2JQbkdvTks5bHhnTzFob1JnMnZrNkpjdE5MYU56R0h1YmZ3NWdTbWstTzMtS2NNOElRNjdmU09Gd2twQUFlSE5fN2VUdw?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9KVGphOU5nOGxxaVFUbk9rek9LUGsyYlA2SnEyWFV1cnlxUms2N2ZmUVR4SUdFdHdLNVBQeFA0b2txeHV0WXp6VmQ1enJhclF6OXh5bWgwYjUyUmhVNVB0RXl0bTE1ZEk?oc=5",
     "sourceName": "Andrej Karpathy (X)",
     "translatedFrom": true
   },
   {
-    "id": "613234241097537",
+    "id": "879986529129600",
     "account": "BetaNews",
     "authorName": "BetaNews",
     "category": "llm",
-    "textOriginal": "ChatGPT Images 2.6 adds GIFs and 50% faster image generation",
-    "textPersian": "ChatGPT Images 2.6 تصاویر GIF و 50٪ سریعتر تولید تصاویر را اضافه می کند",
+    "textOriginal": "ChatGPT Images 2.6 adds GIFs, saved references and 50% faster output",
+    "textPersian": "ChatGPT Images 2.6 تصاویر GIF، منابع ذخیره شده و خروجی 50% سریعتر را اضافه می کند.",
     "timestamp": 1793993833000,
     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5uVGZrWm10X2pfLU5vLWF0eW0yaC1Fal9iVFl2Zkk4czd2VUhWWFM1QUE0dmJxTlpBbWd4TjUtUFk2YVViX3kzOV8wWkZORno0ZlVRMWE4M2hfazVpdzRfcllfTjB6SUp6M1Q3c3FVRHVVekMxckE?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "897237558421744",
+    "id": "766424330348555",
     "account": "CNBC",
     "authorName": "CNBC",
     "category": "news",
     "textOriginal": "OpenAI bugging suspect Alfozan pleads not guilty",
     "textPersian": "آلفوزان مظنون اشکال‌زدایی OpenAI خود را بی‌گناه می‌داند",
     "timestamp": 1793993394000,
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSbk12NjFsRElYclVkVDFyemhuS2hBRW1qeFJ4a3gzR3RQZzhMWnN1aDZhUnYya1p1UmZRRzMyeUJMN01hd0MxZlpySzc2VnZfNm5MY0l4VmlBTVI1VkRncHVtTFB0dDJlSHEwWUwyQ3dBMGc?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBSbk12NjFsRElYclVkVDFyemhuS2hBRW1qeFJ4a3gzR3RQZzhMWnN1aDZhUnYya1p1UmZRRzMyeUJMN01hd0MxZlpySzc2VnZfNm5MY0l4VmlBTVI1VkRncHVtTFB0dDJlSHEwWUwyQ3dBMGfSAXhBVV95cUxNSGdEMk9fS1UtbXhfakhBWnFVMHh4R1BVNFVFOXdPRDlFakFGMGxFZWJ1eE1RcklKWmVjWUZRc3NZUjRvczI2dnR5QkFsS0xiMUFaNkdZZ1NxWENFRHFLRi1ScDhDNndOSV9JaDdNbEoxWXctX3FOWWE?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "752816164675035",
+    "id": "299904307924778",
     "account": "Bioengineer.org",
     "authorName": "Bioengineer.org",
     "category": "imagevideo",
@@ -192,19 +372,7 @@
     "translatedFrom": true
   },
   {
-    "id": "746678234990260",
-    "account": "Bloomberg.com",
-    "authorName": "Bloomberg.com",
-    "category": "news",
-    "textOriginal": "OpenAI Staffer Pleads Not Guilty to Office Bugging Charge",
-    "textPersian": "کارمند OpenAI نسبت به اتهامات آزار و اذیت آفیس بی گناه است",
-    "timestamp": 1793992472000,
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOX2RFNlI3VUFBWFl1MDNmRkZUSkJyaE5ZZ2E1NzFvSGQ0UXdMM093bk5IcW12S2dyQ1dYMF9qYkFqSFY0ZWVVQlNka2tfWEtxdXBWTHZQRzAzTkVHNDA2NDVPY3FIMEVQNzJkUmtkR2NnYjhfWndSeGFlRWU2T205eDZEUWJWa1JuZUJXc3ptSXhlZm9rd2pYRFBQU2VNQkFHdGhCR1VRR2RvcTR4?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "415420028178006",
+    "id": "483281402633724",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "tools",
@@ -216,19 +384,19 @@
     "translatedFrom": true
   },
   {
-    "id": "997646148761030",
-    "account": "BetaNews",
-    "authorName": "BetaNews",
+    "id": "24386353337744",
+    "account": "Anthropic",
+    "authorName": "Anthropic",
     "category": "llm",
-    "textOriginal": "Claude Personal Finance reads bank accounts via Plaid",
-    "textPersian": "Claude Personal Finance حساب های بانکی را از طریق Plaid می خواند",
-    "timestamp": 1793991967000,
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9PaUVTSFBuWHl1VkJidjRmMjlxWmJNRWcxN0sxTU5Jbm5UakVfR2NkRzFjRFFaSmYySmZabmw0Zjh3cWhjbUtHXy1IOWU5N1dhWmJpeFA1dG9NM3dyN2FuTE5FTWx1eWh0V2EwcTItb0Y1ejlkN3VJY0hJbHVxZw?oc=5",
+    "textOriginal": "Teaching AI to build scientific models",
+    "textPersian": "آموزش هوش مصنوعی برای ساخت مدل های علمی",
+    "timestamp": 1793991839000,
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1rLVltMFY0UFlmby1uSWtsdF9VZHpwWmNqUWZ3dFpTUDZKd2ZfZTVZRHl0aE5OdGxvLUt0OXc3WXZvLWdjSkNQZEpvSk9jNVJYUWlZZGpHZ0Q5Z2hQNFpDZ3JjZl9DUGROYXc0NWE4aWZfYnREX1ZMT3VGT3RaUQ?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "754615185431792",
+    "id": "660511304148466",
     "account": "IBM",
     "authorName": "IBM",
     "category": "llm",
@@ -240,7 +408,7 @@
     "translatedFrom": true
   },
   {
-    "id": "554890871808278",
+    "id": "811109715917064",
     "account": "Futurism",
     "authorName": "Futurism",
     "category": "business",
@@ -252,7 +420,7 @@
     "translatedFrom": true
   },
   {
-    "id": "51181634806096",
+    "id": "213325196584968",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "tools",
@@ -264,7 +432,7 @@
     "translatedFrom": true
   },
   {
-    "id": "408255167675676",
+    "id": "117553990728305",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "tools",
@@ -276,31 +444,19 @@
     "translatedFrom": true
   },
   {
-    "id": "148023139451580",
+    "id": "671953159394426",
     "account": "CNBC",
     "authorName": "CNBC",
     "category": "news",
     "textOriginal": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
     "textPersian": "مدیران OpenAI، Arm و Qualcomm نسبت به فروش پس از میان مدت هوش مصنوعی واکنش نشان می دهند",
     "timestamp": 1793989639000,
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdE1TbUF3dUNNZjVhZlhtOEhPOVRVbkYwV25tWXZzY1Q0LTdfV3pKOTg4bkpBZ3QwaFhlUS1LRjJHczMzelRQRFlFQWtwQlhxaDV3NHVHX2FsVzJ1eXVxR0VBLVBUUllyek1OLXZUNk5wZGxzM1Y2bnA1MGJEanV1MFFqS2ZjUl8wY25kadIBkgFBVV95cUxQc29HQmdLYzRubHlYQnBNMEo1LU5ud1dseElEaDR4bGxXRlJwZngxSnEyMW1IWjF3Yk5DQm9OTkNNQmd2OEJQSnctR3Rzb0ZXTnA2NENaWURQTk4yQ1BQTGMxZ0ZaTEpVTWpZamlLMU12OGlHZUZaT0lvOFd6V3JhUUlwdWtsOVdhQW51SUZZSUpyUQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdE1TbUF3dUNNZjVhZlhtOEhPOVRVbkYwV25tWXZzY1Q0LTdfV3pKOTg4bkpBZ3QwaFhlUS1LRjJHczMzelRQRFlFQWtwQlhxaDV3NHVHX2FsVzJ1eXVxR0VBLVBUUllyek1OLXZUNk5wZGxzM1Y2bnA1MGJEanV1MFFqS2ZjUl8wY25kaQ?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "263705073451732",
-    "account": "PYMNTS.com",
-    "authorName": "PYMNTS.com",
-    "category": "news",
-    "textOriginal": "Anthropic Launches Claude Personal Finance Ahead of Nasdaq Listing",
-    "textPersian": "آنتروپیک سرمایه شخصی کلود را پیش از فهرست نزدک راه اندازی می کند",
-    "timestamp": 1793989629000,
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTGVPOGo1UDd1TUxtU3AybjA3MXhXeWJmU0lkNndvc29oeTBpTWFJTnJJR3ZWSXlPak9rQUVSM2ZsbEFVUGlEdjMxMm5VbEtSdWprb3liSkp3dFFSdnJXMVBoM1dyQTJZNDZMMTc3UmgxVTFiUHpEcEJubVNUYTZlOGVFMkRNdGh1b3VuX3F5ekJwSGdFV21GNWFHVFRlZDIzdkRUZnhfdVhRa25ZZXRPWG02S0FXSURhbjBYMUZTekRVZw?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "147379016490489",
+    "id": "63631716436629",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "imagevideo",
@@ -312,7 +468,19 @@
     "translatedFrom": true
   },
   {
-    "id": "507911336227163",
+    "id": "184817098054816",
+    "account": "Unite.AI",
+    "authorName": "Unite.AI",
+    "category": "tools",
+    "textOriginal": "BMO Introduces Agentic AI Case Preparation for Credit Card Support",
+    "textPersian": "BMO برای پشتیبانی از کارت اعتباری آماده سازی پرونده هوش مصنوعی Agentic را معرفی می کند",
+    "timestamp": 1793989022000,
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRFNsTDVUTUdjNnAtLU1jaTBIeXhCeGQ3VnlaZXBhZ2RiOUxBcnJROXpGSVhzTUlGdi0xVEFRY19oaDNOZncyY05vTFk0N2w2dnl5RUxxR1lRVGc3MWtOdnJiQy1OR25BOExrTENUMHRxYlY5LTBnaktEb3ZFTzBtVmMtRmV4UlpZUHlrUnZPQXdkZw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "732873961058014",
     "account": "Reuters",
     "authorName": "Reuters",
     "category": "news",
@@ -324,7 +492,7 @@
     "translatedFrom": true
   },
   {
-    "id": "42262354295021",
+    "id": "88996966451566",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "news",
@@ -336,31 +504,19 @@
     "translatedFrom": true
   },
   {
-    "id": "362541722180860",
-    "account": "https://tech-insider.org/",
-    "authorName": "https://tech-insider.org/",
-    "category": "business",
-    "textOriginal": "Anthropic IPO Buyers Eye $1.2T, Down From $1.5T [2026]",
-    "textPersian": "چشم خریداران IPO آنتروپیک 1.2 تریلیون دلار، کاهش از 1.5 تریلیون دلار [2026]",
-    "timestamp": 1793987522000,
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxONWE0aXBFWmNMODlZQ2NreF9XbDNvWmZkMTFTN3FxSkNFbkJ2eVJ3R3BqTVZ1QWFkMDZMYVl6YjhCeWRGN2loLW56SlFPMTQxOHVKc2J2dVZfZmxoYUJrdEE1eURPS0JVREktT2U5Q0RtQ09uaWkyckYxTnc2YU5GbjU5YWZ0azJ0N0JmVHVxcXFlY0V0LXJiTmJsRVRHQQ?oc=5",
+    "id": "499369868956782",
+    "account": "Amazon Web Services (AWS)",
+    "authorName": "Amazon Web Services (AWS)",
+    "category": "tools",
+    "textOriginal": "Taxonomy of agentic primitives in Amazon Quick | Amazon Web Services",
+    "textPersian": "طبقه بندی اولیه های عامل در آمازون Quick | خدمات وب آمازون",
+    "timestamp": 1793986485000,
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaThEYUFaYlMxWkpoSHlCTng5Z1JDQlRvdF9KblpWQ1VpSnVBV3YzckFnaDdORWNrX0c3VXI1eWM4NHBDME01M0NCcHJDU1RCZXhkeHpLVk1DWDlDMVR3RThvNXdVMW1KMy1NNGoyYXhZWW4zOURtZVRVOHFfcHg4VVBfRUVMcWs3WjF2SmJSdkVpWDlNX2hXMg?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "199771147071271",
-    "account": "Fortune",
-    "authorName": "Fortune",
-    "category": "news",
-    "textOriginal": "OpenAI wants to win over data-center opponents by calling them ‘compute campuses’ and promising local benefits",
-    "textPersian": "OpenAI می‌خواهد مخالفان مراکز داده را با نامیدن آنها \"پردیس محاسباتی\" و وعده مزایای محلی به دست آورد.",
-    "timestamp": 1793986740000,
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcXdMUlBid3FOdmE1WmREMjJtRjc1NTBXLUxHUjBMMTBTRGJRcklBTEZkRHl4MXFSV1VOX3dQZEJRdXlISjc0cld5RXNFMjJXb1J0WEFVREhwT2VjN04yN2g3YzB2cUxmbHVfUFlwX1Q2bFE1S0pFbFJIeG55c2tBMmNPaEZxRThOZWVQVWNn?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "515606489466710",
+    "id": "191425170435936",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "news",
@@ -372,7 +528,7 @@
     "translatedFrom": true
   },
   {
-    "id": "784460010584885",
+    "id": "429954900659264",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "news",
@@ -384,7 +540,7 @@
     "translatedFrom": true
   },
   {
-    "id": "497233845988435",
+    "id": "363560433568519",
     "account": "The New York Times",
     "authorName": "The New York Times",
     "category": "news",
@@ -396,43 +552,19 @@
     "translatedFrom": true
   },
   {
-    "id": "143744758182115",
-    "account": "Anthropic",
-    "authorName": "Anthropic",
-    "category": "llm",
-    "textOriginal": "Project EVE: Claude plays MMORPGs",
-    "textPersian": "Project EVE: کلود MMORPG بازی می کند",
-    "timestamp": 1793984939000,
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zQUNVYk03WEg1anJqMFdVd0hwa2E4MTNzTDdTQmM1Y2NQanplejhaRERoWGxNemgyNjNJREVwaEt6RFJiM2hfQjdBdkFRZ3ZZUFZHbm1yRWcwV0xUSmo5b29QZzd2Rmt3QUNfaUdLUXpQbEhpTFE?oc=5",
+    "id": "451822037071676",
+    "account": "Streetwise Reports",
+    "authorName": "Streetwise Reports",
+    "category": "tools",
+    "textOriginal": "AI Co. Launches Agentic Hub as Walmart Opens to AI Agents",
+    "textPersian": "همزمان با باز شدن والمارت برای نمایندگان هوش مصنوعی، شرکت هوش مصنوعی هاب عامل را راه اندازی کرد",
+    "timestamp": 1793984740000,
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOXzJIMm82MFBOM2FZSVdRTi1MQ2NGV09UalJmcmF4UGFQNFZseE5LNGlXVmJjX181bFdsS0xvMlJjYlBHMEdaQ1VtcmIxRGY4ZXRFYXA5eTBDaV9lYkRKaHRJekxwbV9aNnFXS2Q4VlFNWTJHVHdnMi0xdlp6SlRFVTZkaE1lQ1BrYjd5d2ptX25GenRBb1Jka3dtM1JoU0lNRlFuUXdPY0FnS2UxZWhUako0RXY?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "896228917774877",
-    "account": "Hacker News",
-    "authorName": "Hacker News",
-    "category": "code",
-    "textOriginal": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
-    "textPersian": "UpCodes (YC S17) SDRها را برای فروش نرم افزار مطابق با هوش مصنوعی استخدام می کند",
-    "timestamp": 1793984613000,
-    "url": "https://up.codes/careers?utm_source=HN",
-    "sourceName": "Hacker News",
-    "translatedFrom": true
-  },
-  {
-    "id": "511262024151636",
-    "account": "Hacker News",
-    "authorName": "Hacker News",
-    "category": "business",
-    "textOriginal": "Anthropic IPO buyers see valuation as low as $1.1T",
-    "textPersian": "خریداران IPO Anthropic ارزش آن را تا 1.1 تریلیون دلار می بینند",
-    "timestamp": 1793984076000,
-    "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-    "sourceName": "Hacker News",
-    "translatedFrom": true
-  },
-  {
-    "id": "842292379980198",
+    "id": "185202938609822",
     "account": "Law.com",
     "authorName": "Law.com",
     "category": "llm",
@@ -444,7 +576,7 @@
     "translatedFrom": true
   },
   {
-    "id": "597821538673584",
+    "id": "30463162311261",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "code",
@@ -456,7 +588,7 @@
     "translatedFrom": true
   },
   {
-    "id": "888765227027817",
+    "id": "192987017955245",
     "account": "JD Supra",
     "authorName": "JD Supra",
     "category": "imagevideo",
@@ -468,31 +600,19 @@
     "translatedFrom": true
   },
   {
-    "id": "141067624511515",
-    "account": "The Jerusalem Post",
-    "authorName": "The Jerusalem Post",
+    "id": "96193016031441",
+    "account": "Yahoo Finance",
+    "authorName": "Yahoo Finance",
     "category": "business",
-    "textOriginal": "Anthropic IPO faces valuation cut after $2.5 trillion rout",
-    "textPersian": "IPO آنتروپیک پس از سقوط 2.5 تریلیون دلاری با کاهش ارزش روبرو می شود",
-    "timestamp": 1793982679000,
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9NS1ZKZWVnV2xSUUVac1lMOTFXM0FGV3Italp4c2FPM0tLYkNsRUNFSm1KelE5REljckhRVTlHbjVQOVBOWS1Wa2U5dHppTkJ2NEt2cmx3OHZkSTN0ZGZUbzNJZElkYXB0SG03YQ?oc=5",
+    "textOriginal": "Anthropic IPO Valuation Could Be Slashed in Half to $1T After AI Stock Rout: Report",
+    "textPersian": "گزارش: ارزش IPO Anthropic ممکن است پس از سقوط سهام هوش مصنوعی به نصف تا 1 تریلیون دلار کاهش یابد",
+    "timestamp": 1793982538000,
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV3F1cGU1d1ZyNnlubW9iaE1JVTVrRUNBdU56R05BUmxVaDRNNGxkWnI3by1qd2JPQms3dUNBT2tTanF4NGdGNzdudmd3STJsemJWc0Y2TldNNGE5RXFqdEVIQ3hXNG43dndYcWhTY1UxTUNGSEdzQmRuZDR4OE1BWEFJX1d0N1IxNlVvYkFjam93OEhPSThtdWxfcnVyVkta?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "563389953368230",
-    "account": "Bloomberg.com",
-    "authorName": "Bloomberg.com",
-    "category": "business",
-    "textOriginal": "Watch Anthropic IPO Valuation Expectations Hit After AI Rout",
-    "textPersian": "انتظارات ارزیابی IPO Anthropic بعد از AI Rout را تماشا کنید",
-    "timestamp": 1793982401000,
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQUjFsZUljRG5ldGozSTBpdFk5dzdDeEU5QkZxcm5JY2p1aVlmMVJ0T2V2ZE9vSUFSSkVQX0Q3WXJPdWNhaWNVY3VwY1N5ajFvWHRvc1pQNzZfdmRfRkwzZFdBQlloclp4WGRiQWNxWjBzS0hfNmo2U0MzWUlNY0EwNzZoMTRGbnoyem5kNzAxVHNDSERhYlFrdDZ4SHZDczFyLWpadHRTRnZfcVM1OFE?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "841634866777190",
+    "id": "672280502503501",
     "account": "CNBC",
     "authorName": "CNBC",
     "category": "news",
@@ -504,7 +624,7 @@
     "translatedFrom": true
   },
   {
-    "id": "108006952263170",
+    "id": "341526179692139",
     "account": "Bioengineer.org",
     "authorName": "Bioengineer.org",
     "category": "imagevideo",
@@ -516,7 +636,7 @@
     "translatedFrom": true
   },
   {
-    "id": "563649830621954",
+    "id": "947144569521427",
     "account": "Bloomberg.com",
     "authorName": "Bloomberg.com",
     "category": "business",
@@ -528,7 +648,7 @@
     "translatedFrom": true
   },
   {
-    "id": "590067895244954",
+    "id": "260703670426991",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "business",
@@ -540,7 +660,7 @@
     "translatedFrom": true
   },
   {
-    "id": "808615151113631",
+    "id": "232564772463192",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "imagevideo",
@@ -552,19 +672,19 @@
     "translatedFrom": true
   },
   {
-    "id": "706160145546788",
+    "id": "961779742269357",
     "account": "CNBC",
     "authorName": "CNBC",
     "category": "news",
     "textOriginal": "Anthropic IPO announcement odds drop on Kalshi following midterms and AI sell-off",
     "textPersian": "شانس اعلام IPO Anthropic در Kalshi به دنبال میان‌دوره‌ها و فروش هوش مصنوعی کاهش می‌یابد",
     "timestamp": 1793979761000,
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkV4WTlpM3hKLUxlRXdrV1JBb3B0Q0VxYVc5bHdDZEh5bG14V2h1eVFXeE5IZllWbEU4TFE3X2k0MnpWVUhrT05BWnkxa2I2NDhPTEJlY1R0d1Y4Q0NmZ0FNQlJsVmMyWjV4VjBCSWxnQTdLamFyMnVqRWQ4bzhKRWQ5VTBsOWdqTURz?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkV4WTlpM3hKLUxlRXdrV1JBb3B0Q0VxYVc5bHdDZEh5bG14V2h1eVFXeE5IZllWbEU4TFE3X2k0MnpWVUhrT05BWnkxa2I2NDhPTEJlY1R0d1Y4Q0NmZ0FNQlJsVmMyWjV4VjBCSWxnQTdLamFyMnVqRWQ4bzhKRWQ5VTBsOWdqTURz0gGQAUFVX3lxTE1PZFZSN3pSZmFYLWRXV3FWSUtBWl85aUJlV1REX1N5SzVScE5xQ1lvcnl3Zll5a2hlUXlnUWpHLXFfY3cyeGNyOGRySnNwbklJd2tBbXQ2Q2dnSkd0OFJlR0h0SXl2OGpBcTd6SjVQdnpRQUZTRVRlNjZxQjJBcWl3blY1dGdieXN3ektwY1FobA?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "84014578365479",
+    "id": "275305888916124",
     "account": "Yahoo Finance",
     "authorName": "Yahoo Finance",
     "category": "business",
@@ -576,19 +696,7 @@
     "translatedFrom": true
   },
   {
-    "id": "236009222205700",
-    "account": "Search Engine Roundtable",
-    "authorName": "Search Engine Roundtable",
-    "category": "llm",
-    "textOriginal": "OpenAI Working On ChatGPT Tools For Business For Analytics & Citations",
-    "textPersian": "OpenAI در حال کار بر روی ابزارهای ChatGPT برای تجارت برای تجزیه و تحلیل و نقل قول ها",
-    "timestamp": 1793979120000,
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1UbktEVkJ2WkNIOTJsY3BuM3ZiamZWamcxSFNnYlBMQk1mWTk3UEFodUdFX3l1YWdDLU81Q1hJWEJJTHpvQ1FHbS0tOFRYYWJ4Qjd4Y2dZUmk4a1VCejdacVc1WHg4N21jSUk1MHdjQ3pTb1Z0?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "957569074530413",
+    "id": "165872275618627",
     "account": "The Globe and Mail",
     "authorName": "The Globe and Mail",
     "category": "news",
@@ -600,7 +708,7 @@
     "translatedFrom": true
   },
   {
-    "id": "557984116865810",
+    "id": "934499361758283",
     "account": "The Hacker News",
     "authorName": "The Hacker News",
     "category": "news",
@@ -612,19 +720,7 @@
     "translatedFrom": true
   },
   {
-    "id": "651524068604147",
-    "account": "Billboard",
-    "authorName": "Billboard",
-    "category": "tools",
-    "textOriginal": "Splice Reimagines the DAW With ‘Create’ — Its Agentic AI-Powered Platform for Newcomers",
-    "textPersian": "Splice DAW را با «Create» دوباره تصور می کند - پلتفرم عاملی با هوش مصنوعی آن برای تازه واردان",
-    "timestamp": 1793975265000,
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRzY3UU9xdFBZUW42cV83S3hpUWlVLVRJa0ZhTmRZWEgtSkYydTZ1Q0NCQWxjM2dYamEwMVR5MWJYRHNBMVhMUjBNc09fenh4eGhkOUdOdTV0R0NmbXVLekFiYTNUSjRRZlRIS0dhdUNjaTR5a0VUZ0xISkRnSHV1el93?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "35756966631354",
+    "id": "760126421345740",
     "account": "FinTech Global",
     "authorName": "FinTech Global",
     "category": "policy",
@@ -636,7 +732,7 @@
     "translatedFrom": true
   },
   {
-    "id": "752229115456597",
+    "id": "906204250910982",
     "account": "Visual Capitalist",
     "authorName": "Visual Capitalist",
     "category": "llm",
@@ -648,7 +744,7 @@
     "translatedFrom": true
   },
   {
-    "id": "78116012913279",
+    "id": "527975798970564",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "tools",
@@ -660,7 +756,7 @@
     "translatedFrom": true
   },
   {
-    "id": "398129043159666",
+    "id": "983814628645176",
     "account": "The Des Moines Register",
     "authorName": "The Des Moines Register",
     "category": "news",
@@ -672,7 +768,7 @@
     "translatedFrom": true
   },
   {
-    "id": "351171455873267",
+    "id": "676225370051096",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "business",
@@ -684,7 +780,7 @@
     "translatedFrom": true
   },
   {
-    "id": "649728553273641",
+    "id": "858173803951369",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "tools",
@@ -696,19 +792,7 @@
     "translatedFrom": true
   },
   {
-    "id": "924656060799723",
-    "account": "Hacker News",
-    "authorName": "Hacker News",
-    "category": "llm",
-    "textOriginal": "Gemini Omni 1.2 Flash",
-    "textPersian": "فلش Gemini Omni 1.2",
-    "timestamp": 1793972127000,
-    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-    "sourceName": "Hacker News",
-    "translatedFrom": true
-  },
-  {
-    "id": "679069824752405",
+    "id": "549556173359940",
     "account": "Yahoo Finance",
     "authorName": "Yahoo Finance",
     "category": "business",
@@ -720,7 +804,7 @@
     "translatedFrom": true
   },
   {
-    "id": "47688165182126",
+    "id": "727221832772421",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "llm",
@@ -732,7 +816,7 @@
     "translatedFrom": true
   },
   {
-    "id": "106235432843411",
+    "id": "357269445746720",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "business",
@@ -744,7 +828,19 @@
     "translatedFrom": true
   },
   {
-    "id": "119797855008642",
+    "id": "957877941231457",
+    "account": "IFLR",
+    "authorName": "IFLR",
+    "category": "news",
+    "textOriginal": "A&O Shearman makes $1bn AI pledge over the next five years",
+    "textPersian": "A&O Shearman طی پنج سال آینده یک میلیارد دلار تعهد می کند",
+    "timestamp": 1793968985000,
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQWhlUkF2SnA5SW1iMDRlUFJ0WXROVGlTYUdMVWtnZ3dwOFhnc0NPOFR2eW1MWDl3ZUw5RFJmbkZVLUo2TElKeFRMSUw4YWZzai1reGdMZW4tZXJpZlVGT09uczc1NVhMXzA2QVFGS3AtUHBvMm9wZ1djQ3pLbm44NEszOHBZdVpyUWxMaTlVUkpuZnpDbFhSU1phaXByUVhCN2xEUGxxTHZQTEdySmFTUWdHeXYzSGd2eXc?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "611874526375690",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "news",
@@ -756,19 +852,7 @@
     "translatedFrom": true
   },
   {
-    "id": "145469050783411",
-    "account": "BBN Times",
-    "authorName": "BBN Times",
-    "category": "imagevideo",
-    "textOriginal": "Artificial Intelligence Market Size, Share, Trends & Forecast 2026 to 2033",
-    "textPersian": "اندازه، سهم، روند و پیش بینی بازار هوش مصنوعی 2026 تا 2033",
-    "timestamp": 1793966425000,
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObXVHaXlJM1Y5OE5sM2I2N1FORE9PZ0YwYTEzYWJNQkNmdXZmS3VVaHdPZ1htVFduUmtXc3lWUk9rSnhUb0h5X1FJMkpRaFgxb01qdVYtSkFIYjJERThwb091VDNwazd6clV6RHRQa040VzItaS1VMG5QTnZlVHVNbDNqeGl2VzF2QmN4RG5HTW5vMFpCc2cybWVGSS0tZ2p3OWtHN2t6ajlZdw?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "98847738311547",
+    "id": "796043268267198",
     "account": "Politico",
     "authorName": "Politico",
     "category": "business",
@@ -780,19 +864,7 @@
     "translatedFrom": true
   },
   {
-    "id": "419478464100705",
-    "account": "CSO Online",
-    "authorName": "CSO Online",
-    "category": "code",
-    "textOriginal": "CPython flaw exposes AI inference servers to sandbox escape attacks",
-    "textPersian": "نقص CPython سرورهای استنتاج هوش مصنوعی را در معرض حملات فرار از جعبه سند قرار می دهد",
-    "timestamp": 1793963784000,
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWHp3dEFUZDN5MEVyMnpiaXVwalZPZDlmQjVKdGlTdHltOGJiS19mdm0tRGk1aGhERm5EUmo2cjhmOE9rOS1iX2djWVdxeEFleGFPaFEyMVRjQXp0bWlvOXpSQkFUX2daaFJ6alRiZ2NvN0huMDU4b0tBRVpRQWdfaldaalhRY0tReVFTTnRjaUt2U25TNTJwODN1dkhvVWYzWmdrWjhXcnZSMDY0QW91VXAtZ00?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "232672854815282",
+    "id": "402628474761404",
     "account": "CIO",
     "authorName": "CIO",
     "category": "news",
@@ -804,7 +876,7 @@
     "translatedFrom": true
   },
   {
-    "id": "860588160234397",
+    "id": "895846056394439",
     "account": "The Naples Press",
     "authorName": "The Naples Press",
     "category": "news",
@@ -816,7 +888,7 @@
     "translatedFrom": true
   },
   {
-    "id": "393985233987894",
+    "id": "157493480267262",
     "account": "PYMNTS.com",
     "authorName": "PYMNTS.com",
     "category": "news",
@@ -828,7 +900,19 @@
     "translatedFrom": true
   },
   {
-    "id": "278195758311590",
+    "id": "623639112850245",
+    "account": "X",
+    "authorName": "X",
+    "category": "news",
+    "textOriginal": "Yann LeCun reposted",
+    "textPersian": "Yann LeCun بازنشر کرد",
+    "timestamp": 1793952619000,
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81V3BQY29lV053M0lhYTNJVHI0Z1Z3dlRab3h5Q0d5dDItdGNPZFg2UzVYaUItMDVLNVJVU3VUOVdNd1daQUo1RHhYREVuRC1xTFAzWnBXc3FOWUE?oc=5",
+    "sourceName": "Yann LeCun (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "699239460168009",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "imagevideo",
@@ -840,7 +924,19 @@
     "translatedFrom": true
   },
   {
-    "id": "571360780921882",
+    "id": "206499705971497",
+    "account": "Vietnam Investment Review - VIR",
+    "authorName": "Vietnam Investment Review - VIR",
+    "category": "llm",
+    "textOriginal": "Skymizer and MiTAC run 2.8 trillion parameter AI model on server",
+    "textPersian": "Skymizer و MiTAC مدل هوش مصنوعی 2.8 تریلیون پارامتری را روی سرور اجرا می کنند",
+    "timestamp": 1793950704000,
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ0poUjBNYjliQTVORTQ0YTNxVVRiV1JlNkdkczktZ01peEJseTRlamw1QmFpR0NQSEFNVjZ0YzNrLUZDNTdUWDg2ZE9vZTZQZmtNUENVZ3J1c0g1enNialpQTlNobWdwd1ZDVzFFX1ZsQUxnZURrcnA2U1YwYzR2SUNlSEZON2Vtd1ZlNFBhUGUybk51UTRtaEln?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "709818793229042",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "imagevideo",
@@ -852,7 +948,7 @@
     "translatedFrom": true
   },
   {
-    "id": "253421782581499",
+    "id": "748432113742597",
     "account": "Insurance Journal",
     "authorName": "Insurance Journal",
     "category": "tools",
@@ -864,163 +960,19 @@
     "translatedFrom": true
   },
   {
-    "id": "446619566490436",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "tools",
-    "textOriginal": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-    "textPersian": "رسمی کردن مشکلات معکوس در عصر هوش مصنوعی: احتمالات، مشکلات، و یک دعوت",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06962",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "18504060972830",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "llm",
-    "textOriginal": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-    "textPersian": "KDASO: بهینه‌سازی مهارت خودکار مبتنی بر دانش دوگانه برای وظایف داوری مسئولیت",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06972",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "850347215480395",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "llm",
-    "textOriginal": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
-    "textPersian": "BlockLock: استنتاج LLM قابل تکرار با هندسه دسته ای ثابت",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06977",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "143370806260352",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "llm",
-    "textOriginal": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
-    "textPersian": "یادگیری تقویتی کارآمد پس از آموزش از طریق موازی کاری تخصصی الاستیک",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06984",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "442627473738459",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "llm",
-    "textOriginal": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
-    "textPersian": "مدل دو دفتری: حسابداری بهای تمام شده مبادلات برای سیستم‌های هوش مصنوعی چند عامله در میان ابرها، مدل‌ها و سیستم‌های ثبت",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06989",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "555027910109049",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "tools",
-    "textOriginal": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
-    "textPersian": "عوامل هوش مصنوعی مستقل به طور سیستماتیک از ترجیحات انسانی در رسمی سازی اثبات فاصله می گیرند",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06995",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "655936215880268",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "policy",
-    "textOriginal": "Trust Responsive Runtime Authorization for Agentic AI with Empirical Characterization of Policy Behavior and Parameter Sensitivity",
-    "textPersian": "مجوز زمان اجرا پاسخگو اعتماد برای هوش مصنوعی با خصوصیات تجربی رفتار خط مشی و حساسیت پارامتر",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.06996",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "765555855342750",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "tools",
-    "textOriginal": "Adapting the Process of Adaptation: Darwinian, Lamarckian, and Agent-Directed Evolution in AI",
-    "textPersian": "انطباق فرآیند انطباق: تکامل داروینی، لامارکی و عامل در هوش مصنوعی",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.07048",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "567924967997395",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "tools",
-    "textOriginal": "Closed-Loop Agent Evaluation: Layered Measurement and Self-Calibration",
-    "textPersian": "ارزیابی عامل حلقه بسته: اندازه‌گیری لایه‌ای و خود کالیبراسیون",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.07051",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "798435535895984",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "tutorial",
-    "textOriginal": "Cooperative Multi-Agent Reinforcement Learning via Epigraph-Form Guided Exploration",
-    "textPersian": "یادگیری تقویتی چند عاملی تعاونی از طریق کاوش هدایت شده Epigraph-Form",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.07066",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "614131289635274",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "llm",
-    "textOriginal": "When Verification Is Not Agreement: Cross-Agent LLM-to-Dafny Formalization",
-    "textPersian": "هنگامی که تأیید توافق نیست: رسمی سازی Cross-Agent LLM-to-Dafny",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.07073",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "745763189153606",
-    "account": "arXiv",
-    "authorName": "arXiv",
-    "category": "llm",
-    "textOriginal": "Synthesizing symbolic models of human and machine reasoning at scale",
-    "textPersian": "ترکیب مدل های نمادین استدلال انسان و ماشین در مقیاس",
-    "timestamp": 1793941200000,
-    "url": "https://arxiv.org/abs/2611.07088",
-    "sourceName": "arXiv",
-    "translatedFrom": true
-  },
-  {
-    "id": "777741622723308",
+    "id": "767844836565005",
     "account": "WSJ",
     "authorName": "WSJ",
     "category": "business",
     "textOriginal": "Exclusive | Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
     "textPersian": "اختصاصی | سرمایه‌گذاران عمده شک دارند که عرضه اولیه عمومی سهام آنتروپیک می‌تواند به ارزش 1.5 تریلیون دلاری دست یابد.",
-    "timestamp": 1793939760000,
+    "timestamp": 1793941368000,
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPNVlmZWpuTHFFVDktVG9OaXlnVl9xSFliZFl4YXFRemVUZDFRRFFaajdEcnQ0b01sQTNJNDVDUkRaQXpLdEY3dGhVUjloVS16UHZIQ0cwUG5wQnpxaDcyX3lvX3A0VFZTb0xjMFBObUJKR3N5cVU2WFhqNzRMcEtjN09HQ3VKcnNIcy15V3VJUTdFRkk1OXhQYlNjMFpELUV0Y2o1MnNNa2dPd3lSN3JJdGM2Z0wzdw?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "742464037303349",
+    "id": "118888550302489",
     "account": "X",
     "authorName": "X",
     "category": "code",
@@ -1032,7 +984,7 @@
     "translatedFrom": true
   },
   {
-    "id": "25839532643898",
+    "id": "870461792034810",
     "account": "ET CIO",
     "authorName": "ET CIO",
     "category": "tools",
@@ -1044,31 +996,7 @@
     "translatedFrom": true
   },
   {
-    "id": "536566316316268",
-    "account": "Elon University",
-    "authorName": "Elon University",
-    "category": "news",
-    "textOriginal": "Elon AI Hub launches ‘Campus Voices’ interview series",
-    "textPersian": "Elon AI Hub مجموعه مصاحبه های Campus Voices را راه اندازی کرد",
-    "timestamp": 1793930084000,
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYmNWS3BZR1BFWXdZRDVtbkhhemJHSkluTDE2bS1QQ2NLUG5Bejl4X25QWVloelpKQnlrWmJJVW1WdHpFNWxoSnRiYndnOHo5TG1Kck1zY0VXc0JOTkhCY3Q2WW1mVzBidGJlUmlBT3JMTThXdDR6Nk9ndmNWd0gwUmp5dDdkYjIzM2FHZTlONjJOQ1dsTkE?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "22295708502373",
-    "account": "OpenAI",
-    "authorName": "OpenAI",
-    "category": "research",
-    "textOriginal": "Franklin Templeton uses OpenAI to support investment research",
-    "textPersian": "فرانکلین تمپلتون از OpenAI برای حمایت از تحقیقات سرمایه گذاری استفاده می کند",
-    "timestamp": 1793927424000,
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hOXNGUVZGVEEzMF9uRVd4X0kxcVNXT0ZQNjA3WnhVTGhwMjg3TC1WTkFZVTJrdExhOXN2TkRsalJsVUU2Z0FGZXR2Y2pCcVNWZE5CeGZQMA?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "591822511853814",
+    "id": "49031022783997",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "news",
@@ -1080,7 +1008,7 @@
     "translatedFrom": true
   },
   {
-    "id": "155822486145855",
+    "id": "213422066583491",
     "account": "X",
     "authorName": "X",
     "category": "policy",
@@ -1092,19 +1020,7 @@
     "translatedFrom": true
   },
   {
-    "id": "313345101401972",
-    "account": "The Verge",
-    "authorName": "The Verge",
-    "category": "tools",
-    "textOriginal": "Airbnb is working on an AI travel agent",
-    "textPersian": "Airbnb روی یک آژانس مسافرتی هوش مصنوعی کار می کند",
-    "timestamp": 1793923572000,
-    "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
-    "sourceName": "The Verge",
-    "translatedFrom": true
-  },
-  {
-    "id": "312625889897601",
+    "id": "259039540515172",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "news",
@@ -1116,7 +1032,7 @@
     "translatedFrom": true
   },
   {
-    "id": "24908226492197",
+    "id": "590152063811681",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "tools",
@@ -1128,7 +1044,7 @@
     "translatedFrom": true
   },
   {
-    "id": "760227958439114",
+    "id": "918995929577775",
     "account": "Reuters",
     "authorName": "Reuters",
     "category": "business",
@@ -1140,7 +1056,7 @@
     "translatedFrom": true
   },
   {
-    "id": "569091040867327",
+    "id": "568858380562799",
     "account": "Anthropic",
     "authorName": "Anthropic",
     "category": "llm",
@@ -1152,7 +1068,7 @@
     "translatedFrom": true
   },
   {
-    "id": "244176006333091",
+    "id": "734106585846332",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "tools",
@@ -1164,19 +1080,7 @@
     "translatedFrom": true
   },
   {
-    "id": "715768645347960",
-    "account": "The Verge",
-    "authorName": "The Verge",
-    "category": "tools",
-    "textOriginal": "Perplexity launches its own take on AI agents for work",
-    "textPersian": "Perplexity برداشت خود را از عوامل هوش مصنوعی برای کار ارائه می دهد",
-    "timestamp": 1793917610000,
-    "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-    "sourceName": "The Verge",
-    "translatedFrom": true
-  },
-  {
-    "id": "746247918948870",
+    "id": "475938859156987",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -1188,7 +1092,7 @@
     "translatedFrom": true
   },
   {
-    "id": "875848332364178",
+    "id": "947154783272905",
     "account": "Amazon Web Services (AWS)",
     "authorName": "Amazon Web Services (AWS)",
     "category": "tools",
@@ -1200,7 +1104,7 @@
     "translatedFrom": true
   },
   {
-    "id": "908476791608151",
+    "id": "797634514591029",
     "account": "Reuters",
     "authorName": "Reuters",
     "category": "llm",
@@ -1212,19 +1116,7 @@
     "translatedFrom": true
   },
   {
-    "id": "421452643133098",
-    "account": "The Hoya",
-    "authorName": "The Hoya",
-    "category": "llm",
-    "textOriginal": "IBM Researcher Evaluates Developing AI Model for Sporting Events, Quantum Circuits",
-    "textPersian": "محقق IBM در حال ارزیابی توسعه مدل هوش مصنوعی برای رویدادهای ورزشی، مدارهای کوانتومی",
-    "timestamp": 1793908859000,
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaXFxSTcwVXNmR0pWOGdSei1iNVNQanhXZlN4YUJqb09HbGZGNkZmVGNBMXlXOFlsYld5b0YtcG1ia19iRTlZVVE2N1pOSUNkblAwaThLZjVCUVdOXzNrZmw5ZHAyNUlQSmY2bUZ2Ri1iVnZ0bW9qQXBKemxMdGN4MXh1MUl0NjBVNW5wLTI1VlJzUnBaTFRRdTNUNzZBdkFmSGFHZV9uWFg5TjYtTEY4?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "626051803585650",
+    "id": "501819253255609",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "code",
@@ -1236,7 +1128,7 @@
     "translatedFrom": true
   },
   {
-    "id": "49172520947215",
+    "id": "760397417339464",
     "account": "Fierce Network",
     "authorName": "Fierce Network",
     "category": "tools",
@@ -1248,7 +1140,7 @@
     "translatedFrom": true
   },
   {
-    "id": "971693626611568",
+    "id": "549797039181569",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "news",
@@ -1260,7 +1152,7 @@
     "translatedFrom": true
   },
   {
-    "id": "6536399852507",
+    "id": "221181266130755",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -1272,7 +1164,7 @@
     "translatedFrom": true
   },
   {
-    "id": "33807994275304",
+    "id": "410113820328470",
     "account": "Yahoo Finance",
     "authorName": "Yahoo Finance",
     "category": "business",
@@ -1284,7 +1176,7 @@
     "translatedFrom": true
   },
   {
-    "id": "380528514401825",
+    "id": "851476154007730",
     "account": "Yahoo Finance",
     "authorName": "Yahoo Finance",
     "category": "business",
@@ -1296,7 +1188,7 @@
     "translatedFrom": true
   },
   {
-    "id": "8145038434442",
+    "id": "906452692230479",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "business",
@@ -1308,7 +1200,7 @@
     "translatedFrom": true
   },
   {
-    "id": "998365466895257",
+    "id": "935221961657841",
     "account": "TechCrunch",
     "authorName": "TechCrunch",
     "category": "news",
@@ -1320,7 +1212,19 @@
     "translatedFrom": true
   },
   {
-    "id": "207577857610354",
+    "id": "662844250660967",
+    "account": "PYMNTS.com",
+    "authorName": "PYMNTS.com",
+    "category": "tools",
+    "textOriginal": "FinTechs Hand AI Agents the Company Card",
+    "textPersian": "FinTechs Hand AI Agent the Company",
+    "timestamp": 1793905017000,
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb1pqN3NyRG56VVVIMkp5d1dhQzFXY1dKYVF1cm9Uc2RoWW1yaWZLY2ZMUUdPdHI2TkZRQ2ZPRUx1bUNNUkFndms1b0hMWjZ0Qm91dk15Mk5udEc4VjlTN2VtT3ZRNl8zMjg2cFVaOTliUGx2VUtUX1RKb2xvUkt3N2pBOUE1YURQS2hNaWMwMWlIUnRHbV85Q1pPS2dNNVE?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "973942294455180",
     "account": "Network World",
     "authorName": "Network World",
     "category": "tools",
@@ -1332,7 +1236,7 @@
     "translatedFrom": true
   },
   {
-    "id": "552756039014925",
+    "id": "353284769417077",
     "account": "CNBC",
     "authorName": "CNBC",
     "category": "tools",
@@ -1344,55 +1248,19 @@
     "translatedFrom": true
   },
   {
-    "id": "273830821991462",
-    "account": "The ASCO Post",
-    "authorName": "The ASCO Post",
-    "category": "llm",
-    "textOriginal": "Pediatric Brain Tumors: Prognostic AI Model Guides Precision Therapy Choices",
-    "textPersian": "تومورهای مغزی کودکان: مدل هوش مصنوعی پیش آگهی انتخاب های درمانی دقیق را راهنمایی می کند",
-    "timestamp": 1793901829000,
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOblBDTEtKVkpQQkJwY3BfTkx0dFZuMkJZNmo3NmpnUEkzSWM5QjFWSEZhMFlxcGZSYmR3TWdIZFlzSjhfYmowM2pCM2dGUEdfckoyT0x1TVRMVktTLTN2dXZoWUxOWTNzT2pudFl5cGd1QWpldEZvcXNGTmVvWHNDSG9PRTd0SmtaQVg0aDdER1JaY3NvdGxYeU9RRlBNd2FyS1hsZWpsWkVjMkZOOVo1SGNwZVdab2M?oc=5",
+    "id": "421427328214121",
+    "account": "The National Law Review",
+    "authorName": "The National Law Review",
+    "category": "ethics",
+    "textOriginal": "When an AI Chatbot’s Reassurance Becomes a Risk",
+    "textPersian": "وقتی اطمینان یک چت بات هوش مصنوعی به یک خطر تبدیل می شود",
+    "timestamp": 1793901245000,
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAyV29hcC1hQmhCVkRJb2hnbExDSl94ZjU0eDZIZElxZHVUNzBFOTc2amh4MG02Q0xtbUE1THZDOGhLSUQzOVJHc01INXQ2T0JDQ21POU5Vc3FhSGlNQjdaRmJVRFc2eXlqdFFhUFM1V1RGTEZkQ005Nk1TSmhSd0HSAYQBQVVfeXFMT0gtZ2JUTHpERkc2NkhJZEhHZlgzTlE4VTcydmRRRjBjV0lZSnR0a3N5SzVUMkhnbnA2VFE3TndJbDdrMVVqVUxGRC02Ny1FcHp3RUF1cGZfZXExcDRLWExTdW9oVzJJOG1yV196d0JQeVVKODVaUkg2czRnX2s3cHE0TWN3?oc=5",
     "sourceName": "Google News",
     "translatedFrom": true
   },
   {
-    "id": "232629866626998",
-    "account": "Reuters",
-    "authorName": "Reuters",
-    "category": "llm",
-    "textOriginal": "Anthropic rolls out personal finance feature for Claude",
-    "textPersian": "Anthropic ویژگی مالی شخصی را برای کلود ارائه می کند",
-    "timestamp": 1793901824000,
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdzdfa2NNWTVnNDd4OHQyUmZIN2RIRXVLbDJ3U2RJUHNXeHNiUzhpWU9NWTh2VEJ4SmNEUnRIQW5DTGZJM01WMGhGc2pSRjQ3QnpiWHR5Y3p5YW4wZ0w4c3F0WXlEZjM4RS1hNWVFV0U5U0NERUVGU3RWczR2aXJxdHpnaUI4Ty1HaGZ2WVNUM2NxNzdIVllXQTVvY0Q?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "340070958039433",
-    "account": "TechCrunch",
-    "authorName": "TechCrunch",
-    "category": "business",
-    "textOriginal": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
-    "textPersian": "گرگ براکمن، رئیس OpenAI می گوید که شرکت ممکن است در سال 2027 آماده عرضه اولیه عمومی شود",
-    "timestamp": 1793901747000,
-    "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
-    "sourceName": "TechCrunch",
-    "translatedFrom": true
-  },
-  {
-    "id": "255282877552257",
-    "account": "TechCrunch",
-    "authorName": "TechCrunch",
-    "category": "llm",
-    "textOriginal": "Claude can now analyze your spending with its new Personal Finance tool",
-    "textPersian": "کلود اکنون می تواند هزینه های شما را با ابزار جدید مالی شخصی خود تجزیه و تحلیل کند",
-    "timestamp": 1793901600000,
-    "url": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-    "sourceName": "TechCrunch",
-    "translatedFrom": true
-  },
-  {
-    "id": "34658170163259",
+    "id": "382491549370206",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1404,7 +1272,7 @@
     "translatedFrom": true
   },
   {
-    "id": "662167494242296",
+    "id": "591960041674618",
     "account": "The Verge",
     "authorName": "The Verge",
     "category": "llm",
@@ -1416,7 +1284,7 @@
     "translatedFrom": true
   },
   {
-    "id": "898336750531465",
+    "id": "770517191810695",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "llm",
@@ -1428,7 +1296,7 @@
     "translatedFrom": true
   },
   {
-    "id": "796593495728880",
+    "id": "899649168898486",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1440,7 +1308,19 @@
     "translatedFrom": true
   },
   {
-    "id": "101769283813423",
+    "id": "789058438341584",
+    "account": "The Hacker News",
+    "authorName": "The Hacker News",
+    "category": "llm",
+    "textOriginal": "Researchers Bypass ChatGPT Lockdown Mode to Exfiltrate Chats Without User Interaction",
+    "textPersian": "محققان حالت Lockdown ChatGPT را دور می زنند تا از چت ها بدون تعامل کاربر استفاده کنند.",
+    "timestamp": 1793896920000,
+    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE52ZXV3T04temZUc2QwTENwMmhtYXVmbEdXWi1nQnpENWJLbW5EQ2RqOGdMLTU0VnhXZFhRT1NUVjZza2tGYlRDLU50aThVQ19QekNzNWNzVXZFOGplWFVTa2dIbkJWblU0VG5LZ2VTaXhrdHdNWmxiTHJGbHNoRXM?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "968156377065973",
     "account": "CIO",
     "authorName": "CIO",
     "category": "tools",
@@ -1452,7 +1332,7 @@
     "translatedFrom": true
   },
   {
-    "id": "274570449178504",
+    "id": "651943822664553",
     "account": "X",
     "authorName": "X",
     "category": "tools",
@@ -1464,7 +1344,7 @@
     "translatedFrom": true
   },
   {
-    "id": "919921299074402",
+    "id": "377902034842569",
     "account": "X",
     "authorName": "X",
     "category": "code",
@@ -1476,7 +1356,7 @@
     "translatedFrom": true
   },
   {
-    "id": "67525986048584",
+    "id": "137397786590085",
     "account": "Time Magazine",
     "authorName": "Time Magazine",
     "category": "news",
@@ -1488,7 +1368,19 @@
     "translatedFrom": true
   },
   {
-    "id": "363082719177046",
+    "id": "197143777618805",
+    "account": "PYMNTS.com",
+    "authorName": "PYMNTS.com",
+    "category": "code",
+    "textOriginal": "Firmly Lands $15 Million as Investors Back the Merchant Side of Agentic Commerce",
+    "textPersian": "15 میلیون دلار به عنوان سرمایه گذاران به سمت بازرگانی از تجارت عاملی بر می گردند",
+    "timestamp": 1793888991000,
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNWk44UHFwNm9Sc1ViSEJkZkVndnVIRzdMZzZhZDNXSUlPSGRHdkdRQnd6OHc4ZjRFbk5GTGtwY3hIMzdzNm9QUlVXcmNrcUdIM1p0WWwtOWJudUwwSm90eEJQRW5iWUJybEQtYWJOZzVSNG55Rk5zSEVybUtXUlh1b25zM0tGaW1UVjRRNDFyRDFkQUowX2RrYmtXbFl5Wnc4ekdGTk50a1VtODVnY0RhdG5fdW1PckpuU19qNWd0cllVZWs2YTVrclBtQzc2T2FR?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "352597314927525",
     "account": "Newswise",
     "authorName": "Newswise",
     "category": "news",
@@ -1500,7 +1392,31 @@
     "translatedFrom": true
   },
   {
-    "id": "594215795238579",
+    "id": "512176533243951",
+    "account": "SiliconANGLE",
+    "authorName": "SiliconANGLE",
+    "category": "tools",
+    "textOriginal": "Ocient raises $100 million as agentic AI drives growth in large-scale analytics",
+    "textPersian": "Ocient 100 میلیون دلار جمع آوری می کند زیرا هوش مصنوعی عامل باعث رشد تجزیه و تحلیل در مقیاس بزرگ می شود",
+    "timestamp": 1793880000000,
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQbnVPQ3JiZm5mdjJNSFRpeVdkR3UxT2ttLXRZZ0dMQjJDYURaRTVKV3dTNGNzenkwdFp3b1RSSkIwTlo3SkdzaDN6R0hHUFV6V0JPc0JtMk9USjExNjBENWFtMjBaQXUzWEFrQ1dwcFVfc2ZYOW5Zb3ZqeFUzVHg3Ti0xeEg2TE1iODlJZVNCWmFWX1lHX0tDNjBFazk1OXdnYmlJQUZtRDk4WHB4d0ZWLWlSRl81dw?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "274491724581220",
+    "account": "Politico",
+    "authorName": "Politico",
+    "category": "code",
+    "textOriginal": "OpenAI lays out new policy framework for data centers",
+    "textPersian": "OpenAI چارچوب سیاست جدیدی را برای مراکز داده ارائه می کند",
+    "timestamp": 1793878200000,
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZDJuYW9tNHA1Vnc3dC1mdms0c2VBdmpSZ3lqbVBXMFdhZmR6MWlnbzJheXVfRVV4VlRaMjFLR1NpTURGTFh3VUJSN25MUmF6cV96TVF0a1NQNUVEeWlIWFVVbHNLeTE5ZTEtc0FUcWZrZEZsY2ZjelZXcDhmZjdCUkxtQTlGaGxsQWpGUEZxR0ItR1lZ?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "738034362229214",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "news",
@@ -1512,7 +1428,7 @@
     "translatedFrom": true
   },
   {
-    "id": "49814331127166",
+    "id": "477834924999436",
     "account": "Reuters",
     "authorName": "Reuters",
     "category": "ethics",
@@ -1524,7 +1440,7 @@
     "translatedFrom": true
   },
   {
-    "id": "337842826546767",
+    "id": "769618497027802",
     "account": "Computer Weekly",
     "authorName": "Computer Weekly",
     "category": "tools",
@@ -1536,7 +1452,7 @@
     "translatedFrom": true
   },
   {
-    "id": "313343053442144",
+    "id": "472353810207866",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1548,7 +1464,7 @@
     "translatedFrom": true
   },
   {
-    "id": "325607711175317",
+    "id": "696709482626447",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1560,7 +1476,7 @@
     "translatedFrom": true
   },
   {
-    "id": "823366249506429",
+    "id": "13305756094894",
     "account": "The Hacker News",
     "authorName": "The Hacker News",
     "category": "news",
@@ -1572,7 +1488,7 @@
     "translatedFrom": true
   },
   {
-    "id": "819117840126626",
+    "id": "855836423434277",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "code",
@@ -1584,7 +1500,7 @@
     "translatedFrom": true
   },
   {
-    "id": "115000088499668",
+    "id": "532957844108532",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1596,7 +1512,7 @@
     "translatedFrom": true
   },
   {
-    "id": "618397092452457",
+    "id": "434499491709834",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "news",
@@ -1608,7 +1524,7 @@
     "translatedFrom": true
   },
   {
-    "id": "688447765153495",
+    "id": "3035117621733",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "research",
@@ -1620,7 +1536,7 @@
     "translatedFrom": true
   },
   {
-    "id": "646111097544864",
+    "id": "487324964932082",
     "account": "PYMNTS.com",
     "authorName": "PYMNTS.com",
     "category": "llm",
@@ -1632,7 +1548,7 @@
     "translatedFrom": true
   },
   {
-    "id": "168386133905392",
+    "id": "73486640528368",
     "account": "X",
     "authorName": "X",
     "category": "imagevideo",
@@ -1644,19 +1560,7 @@
     "translatedFrom": true
   },
   {
-    "id": "346294302140345",
-    "account": "The Verge",
-    "authorName": "The Verge",
-    "category": "llm",
-    "textOriginal": "ChatGPT will now make you animated GIFs",
-    "textPersian": "ChatGPT اکنون برای شما گیف های متحرک می سازد",
-    "timestamp": 1793815200000,
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbHVmMkJJSDdzTHJxRFRtUjNoSzJSQTl2Mk1kQmRLbmFaTEE4bDRxZ3FHUzh4Rzd0akdvMUtra2k0U2dPTWdEcm80YnJfRFhXN2lUYjRuSktPdG00VjVFclNqWGxUOERWQ3RKeFpHdkR5aUcxNmVxOHFwMVJJbGJHYTlWRkFFQWljX2VOUUFrUWNiRk13b190NXN4STNqdXNq?oc=5",
-    "sourceName": "Google News",
-    "translatedFrom": true
-  },
-  {
-    "id": "570222642361123",
+    "id": "181156139708",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "ethics",
@@ -1668,7 +1572,7 @@
     "translatedFrom": true
   },
   {
-    "id": "218099042413604",
+    "id": "512821057992775",
     "account": "Amazon Web Services (AWS)",
     "authorName": "Amazon Web Services (AWS)",
     "category": "tools",
@@ -1680,7 +1584,7 @@
     "translatedFrom": true
   },
   {
-    "id": "228803812555514",
+    "id": "510789269101167",
     "account": "X",
     "authorName": "X",
     "category": "research",
@@ -1692,7 +1596,7 @@
     "translatedFrom": true
   },
   {
-    "id": "896812888399857",
+    "id": "952034555577032",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "business",
@@ -1704,7 +1608,7 @@
     "translatedFrom": true
   },
   {
-    "id": "196991550620929",
+    "id": "366047730767357",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "code",
@@ -1716,7 +1620,7 @@
     "translatedFrom": true
   },
   {
-    "id": "515475623407703",
+    "id": "68484297052958",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "news",
@@ -1728,7 +1632,7 @@
     "translatedFrom": true
   },
   {
-    "id": "719631002658549",
+    "id": "932682994951903",
     "account": "X",
     "authorName": "X",
     "category": "research",
@@ -1740,7 +1644,7 @@
     "translatedFrom": true
   },
   {
-    "id": "838750206668295",
+    "id": "218033485780013",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1752,7 +1656,7 @@
     "translatedFrom": true
   },
   {
-    "id": "55420367018956",
+    "id": "889857222145745",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "imagevideo",
@@ -1764,7 +1668,7 @@
     "translatedFrom": true
   },
   {
-    "id": "468130605440684",
+    "id": "753363707618173",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1776,7 +1680,7 @@
     "translatedFrom": true
   },
   {
-    "id": "335213467831452",
+    "id": "184353656038499",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "news",
@@ -1788,7 +1692,7 @@
     "translatedFrom": true
   },
   {
-    "id": "691946117181482",
+    "id": "956064745057695",
     "account": "X",
     "authorName": "X",
     "category": "business",
@@ -1800,7 +1704,7 @@
     "translatedFrom": true
   },
   {
-    "id": "674677310456965",
+    "id": "995884217229254",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "tools",
@@ -1812,7 +1716,43 @@
     "translatedFrom": true
   },
   {
-    "id": "173946954701186",
+    "id": "574283507914467",
+    "account": "Hacker News",
+    "authorName": "Hacker News",
+    "category": "llm",
+    "textOriginal": "Panthera: Ampere's CPU Performance Model",
+    "textPersian": "Panthera: مدل عملکرد CPU Ampere",
+    "timestamp": 1793733137000,
+    "url": "https://github.com/AmpereComputing/panthera",
+    "sourceName": "Hacker News",
+    "translatedFrom": true
+  },
+  {
+    "id": "739001048455925",
+    "account": "Hacker News",
+    "authorName": "Hacker News",
+    "category": "tools",
+    "textOriginal": "Show HN: Tmux-restore saves tmux windows and agent sessions across reboots",
+    "textPersian": "نمایش HN: Tmux-restore پنجره‌های tmux و جلسات عامل را در راه‌اندازی مجدد ذخیره می‌کند",
+    "timestamp": 1793726721000,
+    "url": "https://github.com/andrewboldi/tmux-restore",
+    "sourceName": "Hacker News",
+    "translatedFrom": true
+  },
+  {
+    "id": "918152151485476",
+    "account": "X",
+    "authorName": "X",
+    "category": "llm",
+    "textOriginal": "We are in an era of flux & fighting over how AI should be used to review academic work But it is worth proving to yourself that yes, AI used properly can be quite insightful at this, by asking GPT-6 Pro/Opus 5.5 High to give helpful, substantive feedback on one of",
+    "textPersian": "ما در دورانی از نوسان و جنگ بر سر نحوه استفاده از هوش مصنوعی برای بررسی کارهای آکادمیک هستیم، اما ارزش این را دارد که به خودتان ثابت کنید که بله، استفاده صحیح از هوش مصنوعی می‌تواند در این مورد کاملاً روشنگر باشد، با درخواست از GPT-6 Pro/Opus 5.5 High برای ارائه بازخورد مفید و اساسی در مورد یکی از این موارد.",
+    "timestamp": 1793724227000,
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9VQmRlVV9wb3diNjRVZ1NFem5XS0Y5bWxlcGlyT0dQczh6Z1RsQ25ueTFsMmFTRWNlQUdpQ3J1eWNRUURrbmxKUGc4dWJZenM3di1ORzJwY2J0TC1aWVE?oc=5",
+    "sourceName": "Ethan Mollick (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "574516450892603",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -1824,7 +1764,7 @@
     "translatedFrom": true
   },
   {
-    "id": "467921401235362",
+    "id": "142391960035974",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "llm",
@@ -1836,7 +1776,7 @@
     "translatedFrom": true
   },
   {
-    "id": "815696663890891",
+    "id": "889864101919143",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -1848,7 +1788,7 @@
     "translatedFrom": true
   },
   {
-    "id": "687393989292038",
+    "id": "126584494941061",
     "account": "X",
     "authorName": "X",
     "category": "imagevideo",
@@ -1860,7 +1800,7 @@
     "translatedFrom": true
   },
   {
-    "id": "777141621214832",
+    "id": "22157028263757",
     "account": "Anthropic",
     "authorName": "Anthropic",
     "category": "llm",
@@ -1872,7 +1812,19 @@
     "translatedFrom": true
   },
   {
-    "id": "790015312788374",
+    "id": "866941401104315",
+    "account": "OpenAI",
+    "authorName": "OpenAI",
+    "category": "ethics",
+    "textOriginal": "Preparing our next security sprint to harden OpenAI",
+    "textPersian": "آماده سازی سرعت امنیتی بعدی ما برای سخت تر کردن OpenAI",
+    "timestamp": 1793674022000,
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQT05EalZxVWZpRk4tLUgzNHZmbnlXcXRmeHZIM3ppY0RzMk5CcmFySXZZdFV1bDVYWnRVdjJzeWEydzBWRmFWd2lWSzVsMTdwcFFtZTRWS0pvaDVJbURIdlZINGROaEV6RW8xRjZpYXU4Tng1c2tBVWd2OG9yemk4aWJjQQ?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "559166414666779",
     "account": "OpenAI",
     "authorName": "OpenAI",
     "category": "tools",
@@ -1884,7 +1836,7 @@
     "translatedFrom": true
   },
   {
-    "id": "921234212759329",
+    "id": "563650664651365",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "news",
@@ -1896,7 +1848,7 @@
     "translatedFrom": true
   },
   {
-    "id": "218475077335784",
+    "id": "134336992466473",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -1908,7 +1860,7 @@
     "translatedFrom": true
   },
   {
-    "id": "168129891478540",
+    "id": "328490867815710",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -1920,7 +1872,7 @@
     "translatedFrom": true
   },
   {
-    "id": "840025583327724",
+    "id": "379366403420434",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "news",
@@ -1932,7 +1884,19 @@
     "translatedFrom": true
   },
   {
-    "id": "257389845262969",
+    "id": "549531455619254",
+    "account": "OpenAI",
+    "authorName": "OpenAI",
+    "category": "news",
+    "textOriginal": "Introducing the Grid Protectors Program",
+    "textPersian": "معرفی برنامه Grid Protectors",
+    "timestamp": 1793632364000,
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VR3oxdk1UcmphMkNDb1JRZFBCV0xJY1lmc3NGWkp6WlFTbXNKTzFRcGVWYXpLZk9MQkVEdXp0RWdiOEtYY0ZEdkIxc01DVFpyUXJ1bWl4WG01Z2hSY3c?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "573811683149690",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -1944,7 +1908,7 @@
     "translatedFrom": true
   },
   {
-    "id": "774333144410057",
+    "id": "569178532960259",
     "account": "X",
     "authorName": "X",
     "category": "imagevideo",
@@ -1956,31 +1920,7 @@
     "translatedFrom": true
   },
   {
-    "id": "690240940386704",
-    "account": "X",
-    "authorName": "X",
-    "category": "llm",
-    "textOriginal": "Weekend hack: HackerTube. I was annoyed with YouTube's recommendations so I had Claude filter down 43M comments over 20 years of HN to 6,454 videos that keep being recommended. *Significantly* better viewing experience, ~2 hours with Opus 5.5: ht",
-    "textPersian": "هک آخر هفته: HackerTube. از توصیه‌های YouTube آزرده خاطر شدم، بنابراین از کلود خواستم 43 میلیون نظر را طی 20 سال HN به 6454 ویدیو که مدام توصیه می‌شوند، کاهش دهد. *به طور قابل توجهی* تجربه مشاهده بهتر، ~ 2 ساعت با Opus 5.5: ht",
-    "timestamp": 1793556886000,
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1qaHlXYXBCVjJvUzlaUUdMZjVxTTlTM2RvemZMT0puNk9xNGZEaXltVlVUUWxnbEZGMVZ4MnI5aWhZalNUVTFhWHJpMk43eXd4QnJvRE05RDdFb045alE?oc=5",
-    "sourceName": "Andrej Karpathy (X)",
-    "translatedFrom": true
-  },
-  {
-    "id": "523710451108751",
-    "account": "X",
-    "authorName": "X",
-    "category": "llm",
-    "textOriginal": "🚨 Fable 5.5/Opus-Next routing output of 3js realisitc pelican riding a bike animation one shot , proof attached always ask : where did @karpathy went in 2026 , no web search and memory tools allowed only new fable knows the answer and then prompt it",
-    "textPersian": "🚨 Fable 5.5/Opus-Next خروجی مسیریابی 3js realisitc پلیکان دوچرخه سواری انیمیشن یک شات، اثبات پیوست همیشه بپرسید: @karpathy در سال 2026 کجا رفت، هیچ جستجوی وب و ابزار حافظه اجازه نمی دهد فقط فابل جدید پاسخ را می داند و سپس آن را درخواست می کند.",
-    "timestamp": 1793539138000,
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE51QktDYmNHTjFiWXh2Mk0xVlZ6ZWFjcGpwSnlaeEloOHpkYno4RUktNks5eHVGelFWcS1QempZcEk0S1NBMzZ4QmhXcEFkal8tOUFIREtSck95dUd6bUNR?oc=5",
-    "sourceName": "Andrej Karpathy (X)",
-    "translatedFrom": true
-  },
-  {
-    "id": "718612036871690",
+    "id": "657623103989513",
     "account": "X",
     "authorName": "X",
     "category": "imagevideo",
@@ -1992,7 +1932,7 @@
     "translatedFrom": true
   },
   {
-    "id": "124551193306247",
+    "id": "794727512711714",
     "account": "X",
     "authorName": "X",
     "category": "tools",
@@ -2004,7 +1944,7 @@
     "translatedFrom": true
   },
   {
-    "id": "730955271012078",
+    "id": "204495190360021",
     "account": "X",
     "authorName": "X",
     "category": "tools",
@@ -2016,7 +1956,19 @@
     "translatedFrom": true
   },
   {
-    "id": "95377214428294",
+    "id": "235056663894715",
+    "account": "X",
+    "authorName": "X",
+    "category": "llm",
+    "textOriginal": "The Pro series of GPT models continues to be really impressive for one-shot problems that involve complex calculations, references, or sophisticated ideas. It isn't particularly fast (or particularly pleasant) but GPT-6 Pro gives that \"ask one question of the great",
+    "textPersian": "سری Pro از مدل‌های GPT همچنان برای مشکلات تک‌شات که شامل محاسبات پیچیده، ارجاعات یا ایده‌های پیچیده است، واقعاً چشمگیر است. خیلی سریع نیست (یا خیلی خوشایند) اما GPT-6 Pro می‌گوید: «یک سوال از بهترین‌ها بپرسید.",
+    "timestamp": 1793491063000,
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1VRmlrdnhqYjZpc1FWb0VBQVVNNWNzSGJkbFFUZTZXWlh4TnBqcDZ2MFkzN2xGU2o2UzdUYV8tTmQya2NxTlBocnpBaTQzZkxyVWtSb1FjN3dIR0dENnc?oc=5",
+    "sourceName": "Ethan Mollick (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "397641990252800",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2028,19 +1980,7 @@
     "translatedFrom": true
   },
   {
-    "id": "812281658495602",
-    "account": "X",
-    "authorName": "X",
-    "category": "tutorial",
-    "textOriginal": "@BrianRoemmele It's as if my electronic wind instrument could stop me from playing along Miles Davis or John Coltrane solos while I'm (painfully) trying to learn from them. Anthropic is insane and insufferably moralizing. But we already knew that.",
-    "textPersian": "@BrianRoemmele انگار ساز بادی الکترونیکی من می تواند من را از نواختن سولوهای مایلز دیویس یا جان کولترین باز دارد در حالی که من (به طرز دردناکی) سعی می کنم از آنها یاد بگیرم. آنتروپیک دیوانه کننده و غیر قابل تحمل اخلاقی است. اما ما قبلاً این را می دانستیم.",
-    "timestamp": 1793468344000,
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11UTJtdGhnRUc0QWxSczZ3elN6TlY1QnpoeVMxQmZNZmJ4emJhcS02R1g5clNvNnVYckw1dG5PUnNTZEpJbUZEUndudkZNNzdVOGZVaFlHMFJaQkU?oc=5",
-    "sourceName": "Yann LeCun (X)",
-    "translatedFrom": true
-  },
-  {
-    "id": "455172394957501",
+    "id": "774838920951771",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -2052,7 +1992,7 @@
     "translatedFrom": true
   },
   {
-    "id": "192665694179234",
+    "id": "996092376455310",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2064,43 +2004,7 @@
     "translatedFrom": true
   },
   {
-    "id": "681991147427010",
-    "account": "X",
-    "authorName": "X",
-    "category": "research",
-    "textOriginal": "Each of my posts has dozens of obvious and numbing AI slopreplies. Worse, when humans really do reply (real example: someone from Anthropic addressing the issue I posted about), the \"replies\" algorithm does not surface them first You can't really call this s",
-    "textPersian": "هر یک از پست‌های من دارای ده‌ها تنبلی آشکار و بی‌حس‌کننده هوش مصنوعی است. بدتر از آن، زمانی که انسان‌ها واقعاً پاسخ می‌دهند (مثال واقعی: شخصی از Anthropic که به موضوعی که من در مورد آن پست گذاشتم رسیدگی می‌کند)، الگوریتم «پاسخ‌ها» ابتدا آن‌ها را نشان نمی‌دهد.",
-    "timestamp": 1793324858000,
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBZRV9zVm1lVUc4ZktGcnJaT0hpc1h4akxPS2Q4NS1QVTh6Qkh5Q09wX2hITld1R0xFMFFjYXJTOVFQMjE5M0tfRFR0eENhUHFKN0s4MmNxSVdjSGYxZEE?oc=5",
-    "sourceName": "Ethan Mollick (X)",
-    "translatedFrom": true
-  },
-  {
-    "id": "674939054459710",
-    "account": "X",
-    "authorName": "X",
-    "category": "code",
-    "textOriginal": "I had Opus build a game that takes JIRA tickets from any of your real projects & converts them into dramatic audiologs that are the plot of a 2000s-era horror game set on a mysteriously abandoned space station. Play a demo: https://t.co/RbDIxOky2Y Github: htt",
-    "textPersian": "از اوپوس خواستم بازی‌ای بسازد که بلیت‌های JIRA را از هر یک از پروژه‌های واقعی شما می‌گیرد و آن‌ها را به شنیداری‌های دراماتیک تبدیل می‌کند که داستان یک بازی ترسناک متعلق به دهه ۲۰۰۰ است که در یک ایستگاه فضایی مرموز رها شده است. پخش نسخه نمایشی: https://t.co/RbDIxOky2Y Github: htt",
-    "timestamp": 1793324248000,
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBYM1RkM0ZGbnpMVklWLTBabjZPRUtjS3BFMTVPd2dyR1dIMkc5QkptOEh4RkxpR0h6Um51Mm5kbERmR3VlazQzRnRxYnZ6bkRWd2tiZmI1LW5RYmZ0SFE?oc=5",
-    "sourceName": "Ethan Mollick (X)",
-    "translatedFrom": true
-  },
-  {
-    "id": "716803641077299",
-    "account": "X",
-    "authorName": "X",
-    "category": "tools",
-    "textOriginal": "29 guardrails people run on agents that read strangers' text and can act, sorted by one test: does it hold when the attacker adapts? Text-inspecting ones fold. Capability-removing ones hold. Tried 7 on a support inbox. Which do you run? Which did I miss? https",
-    "textPersian": "29 نرده محافظ افراد روی عواملی اجرا می‌شوند که متن غریبه‌ها را می‌خوانند و می‌توانند عمل کنند، با یک تست مرتب شده‌اند: آیا زمانی که مهاجم سازگار می‌شود، نگه می‌دارد؟ متن بازرسی آنهایی تا. قابلیت حذف آنهایی که نگه دارید. 7 را در صندوق ورودی پشتیبانی امتحان کرد. کدام را اجرا می کنی؟ کدومو از دست دادم https",
-    "timestamp": 1793281304000,
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pRXZYSHlyX19lalo2bW0xT1Q5YlQtQjJITWh5M3RoWlZNNFJfRV9LQ01oOXpVV0lsSVUwVktmeXp2elVzbTdkMFZZQkJPbzQyc0FXODEyQjUyZkk3Xzh0VnFqM2I?oc=5",
-    "sourceName": "Simon Willison (X)",
-    "translatedFrom": true
-  },
-  {
-    "id": "787494648091241",
+    "id": "954775995984472",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "news",
@@ -2112,7 +2016,7 @@
     "translatedFrom": true
   },
   {
-    "id": "44214862024772",
+    "id": "586819669845495",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2124,7 +2028,7 @@
     "translatedFrom": true
   },
   {
-    "id": "786391558183026",
+    "id": "352336667574578",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "news",
@@ -2136,7 +2040,7 @@
     "translatedFrom": true
   },
   {
-    "id": "281539677885243",
+    "id": "267786786792896",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -2148,7 +2052,7 @@
     "translatedFrom": true
   },
   {
-    "id": "294851415385499",
+    "id": "859263873161725",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -2160,7 +2064,7 @@
     "translatedFrom": true
   },
   {
-    "id": "217963724004465",
+    "id": "887448255375471",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -2172,7 +2076,7 @@
     "translatedFrom": true
   },
   {
-    "id": "536321012714175",
+    "id": "145451031438373",
     "account": "X",
     "authorName": "X",
     "category": "business",
@@ -2184,7 +2088,7 @@
     "translatedFrom": true
   },
   {
-    "id": "260571736616700",
+    "id": "876269054834730",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -2196,7 +2100,7 @@
     "translatedFrom": true
   },
   {
-    "id": "949980571238660",
+    "id": "548465518682614",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "imagevideo",
@@ -2208,7 +2112,7 @@
     "translatedFrom": true
   },
   {
-    "id": "781454037738928",
+    "id": "710102442939552",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "llm",
@@ -2220,7 +2124,7 @@
     "translatedFrom": true
   },
   {
-    "id": "679850822815651",
+    "id": "682934372567975",
     "account": "Hugging Face",
     "authorName": "Hugging Face",
     "category": "research",
@@ -2232,7 +2136,7 @@
     "translatedFrom": true
   },
   {
-    "id": "652406276334361",
+    "id": "797221350230542",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "imagevideo",
@@ -2244,7 +2148,7 @@
     "translatedFrom": true
   },
   {
-    "id": "989480642754778",
+    "id": "995306554211125",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2256,7 +2160,7 @@
     "translatedFrom": true
   },
   {
-    "id": "423766295494949",
+    "id": "573233425315806",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2268,7 +2172,7 @@
     "translatedFrom": true
   },
   {
-    "id": "945973396385791",
+    "id": "167623758737405",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "llm",
@@ -2280,7 +2184,7 @@
     "translatedFrom": true
   },
   {
-    "id": "219717190776732",
+    "id": "7996602996602",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2292,7 +2196,7 @@
     "translatedFrom": true
   },
   {
-    "id": "225685699405433",
+    "id": "622935370239136",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "news",
@@ -2304,7 +2208,7 @@
     "translatedFrom": true
   },
   {
-    "id": "863717454425438",
+    "id": "55094091451586",
     "account": "X",
     "authorName": "X",
     "category": "llm",
@@ -2316,7 +2220,7 @@
     "translatedFrom": true
   },
   {
-    "id": "828178862662400",
+    "id": "82401556073850",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -2328,7 +2232,7 @@
     "translatedFrom": true
   },
   {
-    "id": "13256415107337",
+    "id": "519912581581649",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -2340,7 +2244,7 @@
     "translatedFrom": true
   },
   {
-    "id": "644052969867709",
+    "id": "716626668175641",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "news",
@@ -2352,7 +2256,7 @@
     "translatedFrom": true
   },
   {
-    "id": "965245168573757",
+    "id": "467379322253941",
     "account": "National Institute of Standards and Technology (.gov)",
     "authorName": "National Institute of Standards and Technology (.gov)",
     "category": "news",
@@ -2364,7 +2268,7 @@
     "translatedFrom": true
   },
   {
-    "id": "989433625490784",
+    "id": "9402975752511",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "news",
@@ -2376,7 +2280,7 @@
     "translatedFrom": true
   },
   {
-    "id": "291761112260706",
+    "id": "35468122846022",
     "account": "X",
     "authorName": "X",
     "category": "news",
@@ -2388,7 +2292,7 @@
     "translatedFrom": true
   },
   {
-    "id": "414464991790522",
+    "id": "928494845770627",
     "account": "Google AI",
     "authorName": "Google AI",
     "category": "imagevideo",
@@ -2397,6 +2301,102 @@
     "timestamp": 1790186400000,
     "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
     "sourceName": "Google AI",
+    "translatedFrom": true
+  },
+  {
+    "id": "453233390933079",
+    "account": "Google AI",
+    "authorName": "Google AI",
+    "category": "research",
+    "textOriginal": "New experts join Google’s AI & Economy team",
+    "textPersian": "کارشناسان جدید به تیم هوش مصنوعی و اقتصاد گوگل می‌پیوندند",
+    "timestamp": 1789740000000,
+    "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+    "sourceName": "Google AI",
+    "translatedFrom": true
+  },
+  {
+    "id": "83842494664118",
+    "account": "X",
+    "authorName": "X",
+    "category": "news",
+    "textOriginal": "With AI Engineering skills, you actively shape the build: You influence what gets built, and drive the build loop. Here're key skills to do this. https://t.co/sysOYdzuZY",
+    "textPersian": "با مهارت های مهندسی هوش مصنوعی، شما به طور فعال ساختار را شکل می دهید: بر آنچه ساخته می شود تأثیر می گذارید و حلقه ساخت را هدایت می کنید. در اینجا مهارت های کلیدی برای انجام این کار وجود دارد. https://t.co/sysOYdzuZY",
+    "timestamp": 1789110000000,
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9JcjNZUWQ2WWxqcjhCUk1Dd2NOSjJMUGNRQl9GUVQ5cVdKbHVXYlh0SEJvT2RaLUxaQXFuRDIxZjhlbEJRSk1YOGFSVUNqcmNPVE1KalI3Yk5tWUMwcXZV?oc=5",
+    "sourceName": "Andrew Ng (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "307601619029300",
+    "account": "National Security Agency (NSA) (.gov)",
+    "authorName": "National Security Agency (NSA) (.gov)",
+    "category": "llm",
+    "textOriginal": "NSA and Others Warn China-Based AI Companies are Distilling U.S. Frontier AI Models",
+    "textPersian": "آژانس امنیت ملی آمریکا و دیگران هشدار می دهند که شرکت های مستقر در چین در حال تقطیر مدل های هوش مصنوعی مرزی ایالات متحده هستند.",
+    "timestamp": 1788850800000,
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQbE80SEUzdlJMcDM2NEI3dFFreTJzNVdQeFlBenYybG5RekJvUFRldEtWd3NCZ0FJSG0wbjQ4SDgwM1BWWW55YTVvX0VEQV9yUzRNMk4wLXdPZDRVMEI3THAxSU9BRmNwMFJSNEltZk5Za28zS2ZjNFR3X2pfbzJrQnhjLUlVWVlCTXQ0X042cmhoR2loWjRUdnp0Yk1xYmVjMkR6RUxjZ295djlfOHlZemlMdEtXU01McndEdU9CVVhqOUNPMFR1TWRibmhJYXlJampGNzZzdlZDWF9TQm13eEswdFktM3VxY0tmcUJoQ012XzFMcVpNNm5kY09UQld1MlE?oc=5",
+    "sourceName": "Google News",
+    "translatedFrom": true
+  },
+  {
+    "id": "354370229356617",
+    "account": "X",
+    "authorName": "X",
+    "category": "tools",
+    "textOriginal": "A lot of hype around OpenAI's Astra model here on my timeline today. Apparently, this goes back to a new article from The Information, which said Astra is a \"recurrent depth or looped transformer\". It's always interesting to read about new or different approache",
+    "textPersian": "تبلیغات زیادی در مورد مدل Astra OpenAI در اینجا در جدول زمانی امروز من وجود دارد. ظاهراً این به مقاله جدیدی از The Information برمی گردد که می گوید Astra یک ترانسفورماتور عمقی یا حلقه ای است. خواندن در مورد رویکردهای جدید یا متفاوت همیشه جالب است",
+    "timestamp": 1788332400000,
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9iZVE0MU9vSUp5cGhaOFBZUzNteVZZVnZxOGdNTnB5QVhGSXEzWFBnUnpsc1FuUTdkUjBzYlJjdFJsOUxHN2xSZ3k2TFp2MHY4SmF0STU0QVFVUQ?oc=5",
+    "sourceName": "Sebastian Raschka (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "493290866471276",
+    "account": "X",
+    "authorName": "X",
+    "category": "llm",
+    "textOriginal": "My LLM cliché highlighter is up to 38 patterns now https://t.co/sew4qNNaZX",
+    "textPersian": "هایلایتر کلیشه ای LLM من اکنون تا 38 الگو دارد https://t.co/sew4qNNaZX",
+    "timestamp": 1787900400000,
+    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5xYjZqZlBJOG1PQVNKRmhGR3BxZC1kR3FnTXhkS2JzQXBHTndocWl2OXJwbGZTTkFScEdEYUJXZHlhNGg4U3UxMXJJbWdtRm5KM3QySjBDQ2lJdjQ?oc=5",
+    "sourceName": "Simon Willison (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "146452532003081",
+    "account": "X",
+    "authorName": "X",
+    "category": "llm",
+    "textOriginal": "Now we know: The popular Ox Alpha LLM was GLM-5.3-Flash... Compared to GLM-5.2, this new GLM-5.3-Flash model uses: - a Kimi Linear-style 3:1 (super*) hybrid attention pattern with 34 Kimi Delta Attention layers (KDA) and 11 Multi-heat Latent Attention (",
+    "textPersian": "اکنون می دانیم: Ox Alpha LLM محبوب GLM-5.3-Flash بود... در مقایسه با GLM-5.2، این مدل جدید GLM-5.3-Flash از موارد زیر استفاده می کند: - یک الگوی توجه ترکیبی به سبک Kimi Linear 3:1 (super*) با 34 لایه Kimi Delta Attention (KDA) و 11 Attention Multi-theat",
+    "timestamp": 1787727600000,
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YVXFYZmNTUjNFNWQ1NmRuRFMzZXN0OVJTdzlHZTVUd3hlQmZ4cHJad29LRzJRVnVvR1gyRjVwZXpEeFBYOThORVlmVVRwMC1uMm9fTC1wbzYxUQ?oc=5",
+    "sourceName": "Sebastian Raschka (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "380142864151933",
+    "account": "X",
+    "authorName": "X",
+    "category": "tools",
+    "textOriginal": "The most important skills in Building and Deploying AI Applications. https://t.co/IyWIKLIzeM",
+    "textPersian": "مهم ترین مهارت ها در ساخت و استقرار برنامه های کاربردی هوش مصنوعی. https://t.co/IyWIKLIzeM",
+    "timestamp": 1787295600000,
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zTU1XV3YzaEJSWmRZUU1iWlAxU3ZnOEN0MFM5Z2R4MXFoWG43LWJrWE9jTzd0TFM3SXZHV1h2aUx6ZWU0VjBmUzIzLURvaEsxRThWaHZUcGhsQURLdzJj?oc=5",
+    "sourceName": "Andrew Ng (X)",
+    "translatedFrom": true
+  },
+  {
+    "id": "336587371256328",
+    "account": "X",
+    "authorName": "X",
+    "category": "news",
+    "textOriginal": "New: A map of the most important skills in AI Engineering. https://t.co/VVkn1Dqp1N",
+    "textPersian": "جدید: نقشه ای از مهم ترین مهارت ها در مهندسی هوش مصنوعی. https://t.co/VVkn1Dqp1N",
+    "timestamp": 1786690800000,
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DdU9SbW5TNXdpWXNMaDRHU2I0UXpTX3ZBTTR4Q1ZEV1pBVEJjNDZNLUJ5d3ZTVUNrVkNzb2Rfai1JTHR5OURRYV85OG9GWkF5STRDVlEwdUg4ekNSYmhv?oc=5",
+    "sourceName": "Andrew Ng (X)",
     "translatedFrom": true
   }
 ]
